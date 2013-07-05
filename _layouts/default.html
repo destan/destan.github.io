@@ -1,0 +1,92 @@
+---
+title: Destan Sarpkaya
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.name }} | {{ site.slogan }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="{{site.url}}/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="{{site.url}}/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="{{site.url}}/assets/css/syntax.css" rel="stylesheet">
+    <link href="{{site.url}}/assets/css/default.css" rel="stylesheet">
+    <link href="{{site.url}}/assets/css/fontello-embedded.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="{{site.url}}/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{site.url}}/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{site.url}}/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{site.url}}/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="{{site.url}}/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="{{site.url}}/assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div id="wrap" class="row-fluid clear-top">
+      <div id="main" class="span8 offset2">
+
+        <div class="masthead">
+          <h3 class="smooth">{{ site.name }} <span id="slogan">{{ site.slogan }}</span></h3>
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="container">
+                <ul class="nav">
+                  <li id="aboutBtn"><a href="/">About</a></li>
+                  <li id="blogBtn"><a href="/blog">Blog</a></li>
+                  <li id="projectsBtn"><a href="/projects">Projects</a></li>
+                </ul>
+                <span id="socialContainer" class="pull-right">
+                  <a href="https://twitter.com/dorukdestan"><i class="icon-twitter"></i></a>
+                  <a href="https://github.com/destan"><i class="icon-github"></i></a>
+                  <a href="http://www.linkedin.com/in/dorukdestan"><i class="icon-linkedin"></i></a>
+                  <a href="https://plus.google.com/u/0/107372055220510088187"><i class="icon-plus"></i></a>
+                </span>
+              </div>
+            </div>
+          </div><!-- /.navbar -->
+        </div>
+
+        {{ content }}
+
+      </div>
+    </div> <!-- /container -->
+
+    <div id="footer" class="row-fluid">
+      <div class="span8 offset2">
+        <div>
+          <hr>
+          <p class="centered">Destan Sarpkaya 2013</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{site.url}}/assets/js/jquery.js"></script>
+    <script src="{{site.url}}/assets/js/bootstrap-min.js"></script>
+    <script type="text/javascript">
+      // Hacky but works, make current page's corresponding button active in navbar
+      $(function() {
+        var
+          $button = $('#' + window.name + 'Btn'),
+          color = $button.css('border-bottom-color');
+        $button.addClass('active');
+        $button.closest('.navbar-inner').css('border-left-color', color);
+      });
+    </script>
+
+  </body>
+</html>

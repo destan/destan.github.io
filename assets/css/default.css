@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+}
+
+h4{
+  font-size: 18px;
+}
+
+#projectsBtn{
+  border-bottom: 3px solid #8BB815;
+}
+
+#blogBtn{
+  border-bottom: 3px solid #1E81F5;
+}
+
+#aboutBtn{
+  border-bottom: 3px solid #F5BA1E;
+}
+
+#slogan{
+  font-size: 0.5em;
+  border-left: 1px solid;
+  padding-left: 5px;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+}
+
+#footer {
+  margin-top: -72px;
+  height: 50px;
+  text-align: center;
+  color: gray;
+}
+
+#socialContainer{
+  font-size: 25px;
+  color: whitesmoke;
+  margin: 7px 20px 0 0;
+  cursor: pointer;
+}
+
+#socialContainer > i{
+  cursor: pointer;
+}
+
+#socialContainer a, #socialContainer a:hover, #socialContainer a:active{
+  margin-left: 10px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.smooth{
+  color: #666;
+}
+
+.navbar .active{
+  background-color: #555;
+}
+
+.navbar-inner{
+  background-color: #888;
+  border-left: 10px solid currentcolor;
+  padding-left: 15px;
+}
+
+.post-date{
+  height: 20px;
+  margin-top: 10px;
+  line-height: 23px;
+}
+
+.post{
+  text-align: justify;
+}

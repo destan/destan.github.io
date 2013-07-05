@@ -1,0 +1,21 @@
+---
+layout: default
+name: blog
+---
+
+<link href="{{site.url}}/assets/css/blog.css" rel="stylesheet">
+
+<div id="home">
+  
+  {% for post in site.posts %}
+    <div class="post-sum well">
+      <strong>{{ post.title }}</strong>
+      <code class="pull-right">{{ post.date | date_to_string }}</code>
+      <div>{{ post.excerpt }} <a href="{{ post.url }}">Continue reading »</a></div>
+    </div>
+  {% endfor %}
+</div>
+
+<script type="text/javascript">
+window.name = '{{ page.name }}';
+</script>
