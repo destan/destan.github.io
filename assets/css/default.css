@@ -39,21 +39,20 @@ h4{
   color: gray;
 }
 
-#socialContainer{
+#socialBtn{
   font-size: 25px;
   color: whitesmoke;
-  margin: 7px 20px 0 0;
   cursor: pointer;
 }
 
-#socialContainer > i{
-  cursor: pointer;
-}
-
-#socialContainer a, #socialContainer a:hover, #socialContainer a:active{
-  margin-left: 10px;
-  cursor: pointer;
-  color: whitesmoke;
+#socialBtn a{
+  padding-right: 19px;
+  padding-left: 10px;
+/*  border-bottom: 3px solid whitesmoke;
+  border-right: 1px solid #888;
+  border-left: 1px solid #888;
+  padding-top: 13px;
+*/
 }
 
 .smooth{
