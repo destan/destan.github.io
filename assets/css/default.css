@@ -11,6 +11,14 @@ legend{
   line-height: 1.5em;
 }
 
+.navbar-inner{
+  background-color: #aaa !important;
+}
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover{
+  color: #eee !important;
+}
+
 #projectsBtn{
   border-bottom: 3px solid #8BB815;
 }
