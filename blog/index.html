@@ -8,11 +8,13 @@ name: blog
 <div id="home">
   
   {% for post in site.posts %}
-    <div class="post-sum well">
-      <strong>{{ post.title }}</strong>
-      <code class="pull-right">{{ post.date | date_to_string }}</code>
-      <div>{{ post.excerpt }} <a href="{{ post.url }}">Continue reading »</a></div>
-    </div>
+    {% unless (post.categories contains 'draft' ) %}
+      <div class="post-sum well">
+        <strong>{{ post.title }}</strong>
+        <code class="pull-right">{{ post.date | date_to_string }}</code>
+        <div>{{ post.excerpt }} <a href="{{ post.url }}">Continue reading »</a></div>
+      </div>
+    {% endunless %}
   {% endfor %}
 </div>
 
