@@ -6,6 +6,11 @@ h4{
   font-size: 18px;
 }
 
+legend{
+  border-bottom: 1px solid #aaa;
+  line-height: 1.5em;
+}
+
 #projectsBtn{
   border-bottom: 3px solid #8BB815;
 }
@@ -18,7 +23,7 @@ h4{
   border-bottom: 3px solid #F5BA1E;
 }
 
-#slogan{
+.slogan{
   font-size: 0.5em;
   border-left: 1px solid;
   padding-left: 5px;
@@ -53,6 +58,10 @@ h4{
   border-left: 1px solid #888;
   padding-top: 13px;
 */
+}
+
+.at-sign:before{
+  content: "@"
 }
 
 .smooth{
