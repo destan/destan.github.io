@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Hiç Bilmeyenler İçin Evrim Kuramı"
-categories: bilim draft
+categories: bilim
 tags: evrim
+draft: true
 ---
 
 Nedendir bilinmez evrimi çok basitçe anlatan bir belgesel veya yazı yok veya ben denk gelmedim. Bütün belgeseller evrim kavramını anlatıren "... ve balıklar karaya çıktı" gibi saçma sapan cümleler kullanıp insanların kafasını karıştırıyor. Sanki bir gün balıklar yüzerken "hadi bi karaya çıkalım" demiş, sonra da buna karar veren balıkların küçük ayakları çıkmaya başlamış gibi bir izlenim oluşuyor izleyicide.

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% unless (page.categories contains 'draft' ) %}
+{% if page.draft != true %}
 
 <style type="text/css">
   .tweet-btn{
@@ -38,4 +38,10 @@ layout: default
   </div>
 </div>
 
-{% endunless %}
+{% else %}
+  <div style="text-align:center;margin-top: 50px;">
+    <h1>404</h1>
+    <h3>Not found</h3>
+    <button onclick="history.go(-1)" class="btn btn-warning">« Back</button>
+  </div>
+{% endif %}
