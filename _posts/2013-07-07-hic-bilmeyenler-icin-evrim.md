@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hiç Bilmeyenler İçin Evrim Kuramı"
-categories: bilim 
+categories: bilim draft
 tags: evrim
 ---
 
