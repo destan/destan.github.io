@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://dorukdestan.com/</loc>
+  <lastmod>2013-07-08T11:55:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://dorukdestan.com/about/</loc>
+  <lastmod>2013-07-08T11:55:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://dorukdestan.com/blog/</loc>
+  <lastmod>2013-07-08T11:55:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://dorukdestan.com/projects/</loc>
+  <lastmod>2013-07-08T11:55:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://dorukdestan.com/blog/tasindik/</loc>
+  <lastmod>2013-07-08T11:55:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://dorukdestan.com/blog/Gezi-parkı-gösterilerini-amaca-ulaştıralım/</loc>
+  <lastmod>2013-07-08T11:55:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://dorukdestan.com/blog/for-newbies/</loc>
+  <lastmod>2013-07-08T11:55:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://dorukdestan.com/blog/Working-in-the-darkness-of-enterprise-bureaucracy/</loc>
+  <lastmod>2013-07-08T11:55:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://dorukdestan.com/blog/Non-Disclosure-Agreements-and-Idiotic-Companies/</loc>
+  <lastmod>2013-07-08T11:55:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://dorukdestan.com/blog/starting-with-the-basics/</loc>
+  <lastmod>2013-07-08T11:55:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
