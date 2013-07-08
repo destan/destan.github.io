@@ -72,8 +72,9 @@ legend{
   content: "@"
 }
 
-.smooth{
+#siteTitle > a, #siteTitle > a:hover, #siteTitle > a:visited, #siteTitle > a:active{
   color: #666;
+  text-decoration: none;
 }
 
 .navbar .active{
