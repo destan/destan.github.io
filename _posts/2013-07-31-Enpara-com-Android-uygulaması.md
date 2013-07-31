@@ -20,19 +20,16 @@ Olumlu noktalar
 
 * Tasarım ve renkler web sayfası ile uyumlu. Diyeceksiniz ki "e ne olacaktı!" öyle demeyin neler gördük :(
 * Menüler sade ve kullanışlı, işlem akışları çok anlaşılır. Gerçi sadelikte zaten Enpara.com'da çok fazla işlem yapılamamasının da (örneğin SGK borcu veya trafik cezası ödenememesi) biraz etkisi var ama olsun.
-* Garanti'nin cep şubesinde beni çok sinir eden müşteri numarasını her defasında girme derdi burada *"Müşteri numarasını hatırla"* seçeneği ile çözülmüş. Yaşasıııın :) 
-
-@garanti: bu kadar zor muydu?
-
+* Garanti'nin cep şubesinde beni çok sinir eden müşteri numarasını her defasında girme derdi burada *"Müşteri numarasını hatırla"* seçeneği ile çözülmüş. Yaşasıııın :) `@garanti`: bu kadar zor muydu?
 * Çıkış tuşuna basınca "Emin misiniz?" diye sormuyor, zönk diye çıkıyor uygulamadan. Bana Linux'un kullanıcıya yaklaşımı gibi geldi. "Çıkcam diyorsa çıkacaktır, açın yolu!" :D Acaba artık Outlook ve/veya IE8 kullanan `dummy user` tayfasını umursamıyorlar mı yoksa bunu sormayı unuttular mı? Umarım ilkidir diyerek şukusunu verdim.
 
 Olumsuz noktalar
 ----------------
 
 * Parola girdikten sonra gelen sms şifresini uygulama kendi yakalayabilirdi ama onun yerine ben elle yazdım.
-  - Gerçi sonraki girişlerimde bir daha hiç sms şifresi istemedi, belki de girişler arasında çok az zaman var diye bilemiyorum. Bunu bi takip edicem. Belki de bugdır :/
+* Gerçi sonraki girişlerimde bir daha hiç sms şifresi istemedi, belki de girişler arasında çok az zaman var diye bilemiyorum. Bunu bi takip edicem. Belki de bugdır :/
 * Uygulama açıkken ana ekrana dönünce ya da tarayıcıya gidince oturum sonlanıyor, yeniden giriş yapmak gerekiyor. Garanti'nin uygulamasında böyle değil, oturumun sonlanması için ya kullanıcı özellikle çıkış yapmalı ya da oturum timeout olmalı. Bu büyük bir sorun ve kullanışlılığı çok düşürmüş.
-  - Hatta burada bir sorun var sanki: 
+* Hatta burada bir sorun var sanki: 
   1. Enpara uygulamasına giriş yap
   2. Başka uygulamaya geç
   3. Enpara'ya geri dön
@@ -41,4 +38,4 @@ Olumsuz noktalar
   
  
   
-Şimdilik bu kadar, zaten bunlar ilk izlenimler kullandıkça yazmaya değer bir şeyler çıkarsa yazarım yine.
+Şimdilik bu kadar, kullandıkça yazmaya değer bir şeyler çıkarsa yazarım yine.
