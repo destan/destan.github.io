@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Enpara.com Android uygulaması"
-categories: mobile, mobil
+categories: mobile mobil
+tags: enpara.com enpara android
 ---
 
 Uzun zamandır beklediğim Enpara.com Android uygulamasının *sonunda* çıktığını biraz önce Enpara'dan  aldığım bir sms ile öğrendim. Kendileri de geciktiklerinin bilncinde olacaklar ki *"... sizleri çok beklettik ama"* ile başlayan bir sms atarak biraz kullanıcıları yumuşatmayı hedeflemişler.
