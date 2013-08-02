@@ -6649,8 +6649,6 @@ legend {
 }
 
 .label {
-  min-width: 80px;
-  min-height: 80px;
   font-weight: 300;
   text-shadow: none;
   -webkit-border-radius: 0;
@@ -6667,7 +6665,7 @@ legend {
 }
 
 .label-info {
-  background-color: #9954bb;
+  background-color: #3a87ad;
 }
 
 .label-inverse {
