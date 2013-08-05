@@ -32,7 +32,10 @@ layout: default
 
     {% if page.categories.size > 0 %}
       <span>
-        | Categories: {{ page.categories | array_to_sentence_string }}
+        | Categories: 
+        {% for category in page.categories %}
+          <a href="{{site.url}}/blog/categories/{{category}}">{{category}}</a>
+        {% endfor %}
       </span>
     {% endif %}
   </div>
