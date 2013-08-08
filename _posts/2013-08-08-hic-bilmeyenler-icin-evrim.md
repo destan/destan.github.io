@@ -13,7 +13,7 @@ Nedendir bilinmez evrimi hiç bilmeyene anlatabilecek nitelikte bir belgesel vey
 
 Bence çoğu belgeseldeki temel sorun evrimin sürecine yeterli vurgu yapılmaması. Örneğin belgesellerde *"... sapienlerde parmaklar alet kullanımını kolaylaştıracak biçimde incelmiştir"* gibi söylemleri çokça duyarız. Bu anlatım evrimdeki sürecin algılanmasını zorlaştırıp, sanki bir zamanda yaşayan homo-sapien türünün bütün üyelerinin parmakları 3-4 yılda kendiliğinden incelmiş ve sonraki nesillerde de öyle devam etmiş algısı yaratır.
 
-Haliyle izleyici *"hadi lan ordan o zaman bizim parmaklar niye incelmiyor"* gibi haklı sorularla ne belgeselin kalanını ciddiye alıyor ne de bir daha evrim açıklamalarını ön yargısız dinleyebiliyor.
+Haliyle izleyici *"hadi lan ordan o zaman bizim parmaklar niye incelmiyor"* gibi haklı sorularla ne belgeselin kalanını ciddiye alır ne de bir daha evrim açıklamalarını ön yargısız dinleyebilir.
 
 Oysaki daha açık anlatım şöyle olmalıdır: *"... ince parmaklı bireyler daha kolay alet kullanabildikleri ve bu nedenle kalın parmaklılara oranla daha kolay hayatta kalabildikleri için zamanla ince parmaklı sapienler sayıca baskın duruma gelmiştir"*. Evet çok daha uzun ama belgeselin amacı zaten bir şeyler açıklamak değil mi? Yarım yamalak anlatmaktansa biraz uzun olması yeğdir bence.
 
