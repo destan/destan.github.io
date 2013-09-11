@@ -96,3 +96,7 @@ legend{
 .post{
   text-align: justify;
 }
+
+.float-left{
+  float: left;
+}
