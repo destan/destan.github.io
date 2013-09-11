@@ -3,7 +3,7 @@ layout: post
 title: "Evrim teorisi çöktü mü?"
 categories: bilim
 tags: evrim
-draft: evrim
+draft: true
 ---
 
 Evrim kuramı ile ilgili yaratılış savını öne süren şarlatanların sıkça kullandığı uyduruk ancak ikna yeteneği yüksek argümanlara yanıtları bu yazıda toplamaya çalıştım. Yanlışlarımı görüp de düzeltirseniz sevinirim.
