@@ -103,7 +103,7 @@ legend{
 }
 
 .post-footer{
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .post{
@@ -116,4 +116,11 @@ legend{
 
 .dont-show{
   display: none;
+}
+
+.author-name{
+  margin-top: 20px;
+  font-size: 0.7em;
+  display: block;
+  text-align: right;
 }
