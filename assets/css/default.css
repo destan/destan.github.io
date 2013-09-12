@@ -86,6 +86,10 @@ legend{
   text-decoration: none;
 }
 
+#siteTitle{
+  font-size: 20px;
+}
+
 .navbar .active{
   background-color: #555;
 }
