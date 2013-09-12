@@ -11,13 +11,15 @@ layout: default
   }
 </style>
 
+<span itemscope itemtype="http://schema.org/Article">
+
 <h1>
-  {{ page.title }}
-  <code class="post-date pull-right">{{ page.date | date_to_string }}</code>
+  <span itemprop="name">{{ page.title }}</span>
+  <code class="post-date pull-right" itemprop="datePublished">{{ page.date | date_to_string }}</code>
 </h1>
 
 <div class="post">
-  {{ content }}
+  <span itemprop="articleBody">{{ content }}</span>
 
   <div class="well post-footer">
     <div class="tweet-btn">
@@ -40,6 +42,12 @@ layout: default
     {% endif %}
   </div>
 </div>
+
+<span class="dont-show" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <span href="/" itemprop="name">{{ site.name }}</span>
+</span>
+
+</span> <!-- itemscope Article -->
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">

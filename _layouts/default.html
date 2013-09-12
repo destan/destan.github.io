@@ -44,7 +44,9 @@
       <div id="main" class="span8 offset2">
 
         <div class="masthead">
-          <h3 id="siteTitle"><a href="/">{{ site.name }}</a> <span class="slogan">{{ site.slogan }}</span></h3>
+          <h3 id="siteTitle" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a href="/" itemprop="name">{{ site.name }}</a> <span class="slogan">{{ site.slogan }}</span>
+          </h3>
           <div class="navbar">
             <div class="navbar-inner">
               <div class="container">

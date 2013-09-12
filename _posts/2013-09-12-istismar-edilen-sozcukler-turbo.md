@@ -8,7 +8,7 @@ tags: istismar-edilen-kelimeler istismar-edilen-sözcükler turkcenin-yanlis-kul
 Bir çok arabanın veya kamyonun önünde arkasında hep görürüz `turbo` diye. Sanki ayırt edici bir özellik, belirtilesi bir nitelik, yenilik gibi.
 
 <div>
-	<img class="float-left" width="300" src="http://upload.wikimedia.org/wikipedia/commons/6/6f/Turbocharger-1-.jpg" alt="Turbocharger" title="Al sana turbo!">
+	<img itemprop="image" class="float-left" width="300" src="http://upload.wikimedia.org/wikipedia/commons/6/6f/Turbocharger-1-.jpg" alt="Turbocharger" title="Al sana turbo!">
 
 	<div style="height:300px">
 		

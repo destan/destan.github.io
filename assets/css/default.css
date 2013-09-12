@@ -113,3 +113,7 @@ legend{
 .float-left{
   float: left;
 }
+
+.dont-show{
+  display: none;
+}
