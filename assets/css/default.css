@@ -102,6 +102,10 @@ legend{
   line-height: 23px;
 }
 
+.post-footer{
+  margin-top: 40px;
+}
+
 .post{
   text-align: justify;
 }
