@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Olimpiyatları Neden İyiki Alamadık?"
+title: "Olimpiyatları Neden İyi ki Alamadık?"
 categories: politika
 tags: 2020-olimpiyatları istanbul-2020 olimpiyat-oyunları olimpiyatları-neden-alamadık kına-yakın
 ---
