@@ -2,7 +2,7 @@
 layout: post
 title: "Olimpiyatları Neden İyiki Alamadık?"
 categories: politika
-tags: 2020-olimpiyatları 2020-istanbul olimpiyatları-neden-alamadık kına
+tags: 2020-olimpiyatları istanbul-2020 olimpiyat-oyunları olimpiyatları-neden-alamadık kına-yakın
 ---
 
 *"Hain, kökü dışarda mihrak, sen de Türk müsün be, sırf muhalefet için Türkiye'nin iyiliğini istemeyen zihniyet, götünüze kına yakın artık..."* gibi seviyesiz ve sığ yorumlardan sonra içimden söyleneceğime "seviyeli" bir yorum yapayım dedim, artık ne kadar olduysa...
