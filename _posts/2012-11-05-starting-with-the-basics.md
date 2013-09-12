@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Starting with the basics: Concept confusion"
+category: life
 ---
 
 Without well defined concepts and having both sides of the conversation agree on them, any conversation is pure waste of time. On such cases people should just shut up and try to clarify what do they mean by saying this or that.

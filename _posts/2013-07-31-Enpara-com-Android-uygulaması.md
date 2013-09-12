@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Enpara.com Android uygulaması"
-categories: mobile mobil
+categories: development
 tags: enpara.com enpara android
 ---
 

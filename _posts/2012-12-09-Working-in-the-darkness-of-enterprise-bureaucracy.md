@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Working in the darkness of enterprise bureaucracy"
+category: politics
 ---
 
 Bureaucracy decreases the efficiency of work, slows down operations and doesn’t solve that much problems at all. Then why corporations have endless bureaucracy, procedures and paperwork? Put aside the ones that are needed for legal stuff, there are still too many bureaucracy in corporations. Why?

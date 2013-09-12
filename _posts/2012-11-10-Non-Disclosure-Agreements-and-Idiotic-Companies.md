@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Non-Disclosure Agreements and Idiotic Companies"
+category: politics
 ---
 
 I will be discussing about the technical(related to development) aspect of Non-Disclosure Agreement (NDA) on this post. So don’t think of finance, law or press related aspects of it. I may agree with the necessity of keeping secret the financial situation/decisions of projects or necessity of hiding the fight of two managers from public or press.

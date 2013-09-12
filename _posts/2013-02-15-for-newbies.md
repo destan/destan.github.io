@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "For newbies"
+category: life
 ---
 
 Starter kit for computer engineering* newbies
