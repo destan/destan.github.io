@@ -6424,7 +6424,7 @@ div.subnav-fixed {
 .pagination ul > li > a:hover,
 .pagination ul > li > span:hover {
   color: #ffffff;
-  background-color: #080808;
+  background-color: darkred;
 }
 
 .pagination ul > li:last-child > a,
