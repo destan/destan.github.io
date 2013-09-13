@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Good reads and tutorials"
-categories: tutorial
+categories: development
 tags: tutorials development reading
 ---
 
