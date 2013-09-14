@@ -20,6 +20,23 @@ legend{
   line-height: 1.5em;
 }
 
+@font-face {
+  font-family: 'handwriting';
+  src: url('handwriting-webfont.eot');
+  src: url('handwriting-webfont.eot?#iefix') format('embedded-opentype'),
+       url('handwriting-webfont.woff') format('woff'),
+       url('handwriting-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.autograph{
+  font-family: 'handwriting';
+  font-size: 2em;
+  text-align: right;
+  margin-top: 40px;
+}
+
 .navbar-inner{
   background-color: #aaa !important;
 }
@@ -87,7 +104,7 @@ legend{
 }
 
 #siteTitle{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .navbar .active{
@@ -120,11 +137,4 @@ legend{
 
 .dont-show{
   display: none;
-}
-
-.author-name{
-  margin-top: 20px;
-  font-size: 0.7em;
-  display: block;
-  text-align: right;
 }

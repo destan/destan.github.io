@@ -21,6 +21,11 @@ layout: default
 <div class="post">
   <span itemprop="articleBody">{{ content }}</span>
 
+  <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <!-- web font is from http://www.aringtypeface.com/southern-aire/ by Måns Grebäck -->
+    <div class="autograph" itemprop="name">Destan Sarpkaya</div>
+  </span>
+
   <!-- <span class="author-name">by Destan Sarpkaya</span> -->
   <div class="well post-footer">
     <div class="tweet-btn">
@@ -43,10 +48,6 @@ layout: default
     {% endif %}
   </div>
 </div>
-
-<span class="dont-show" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <span href="/" itemprop="name">Destan Sarpkaya</span>
-</span>
 
 </span> <!-- itemscope Article -->
 
