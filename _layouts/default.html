@@ -68,6 +68,22 @@
           </div><!-- /.navbar -->
         </div>
 
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed before content so that the content is able to load jQuery plugins -->
+        <script src="{{site.url}}/assets/js/jquery.js"></script>
+        <script src="{{site.url}}/assets/js/bootstrap-min.js"></script>
+        <script type="text/javascript">
+          // Hacky but works, make current page's corresponding button active in navbar
+          $(function() {
+            var
+              $button = $('#' + window.name + 'Btn'),
+              color = $button.css('border-bottom-color');
+            $button.addClass('active');
+            $button.closest('.navbar-inner').css('border-left-color', color);
+          });
+        </script>
+
         {{ content }}
 
       </div>
@@ -83,21 +99,6 @@
     </div>
 
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{site.url}}/assets/js/jquery.js"></script>
-    <script src="{{site.url}}/assets/js/bootstrap-min.js"></script>
-    <script type="text/javascript">
-      // Hacky but works, make current page's corresponding button active in navbar
-      $(function() {
-        var
-          $button = $('#' + window.name + 'Btn'),
-          color = $button.css('border-bottom-color');
-        $button.addClass('active');
-        $button.closest('.navbar-inner').css('border-left-color', color);
-      });
-    </script>
 
   </body>
 </html>
