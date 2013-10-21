@@ -2,19 +2,12 @@
 layout: post
 title: "Reset All Locale Settings"
 categories: development
-tags: ubuntu locale settings update-locale
-draft: true
+tags: ubuntu locale settings update-locale set-all-locale-values-at-once ubuntu-server mongodb
 ---
 
-When getting a mongo dump you may encounter following error:
+Set all locale values at once from console.
 
-    terminate called after throwing an instance of 'std::runtime_error'
-      what():  locale::facet::_S_create_c_locale name not valid
-      
-      
-When upgrading your system via aptitude upgrade you may get
-
-{% highlight javascript %}
+{% highlight bash %}
 sudo update-locale LANG=en_US.UTF-8
 sudo update-locale LANGUAGE=en_US.UTF-8
 sudo update-locale LC_CTYPE=en_US.UTF-8
@@ -31,3 +24,13 @@ sudo update-locale LC_MEASUREMENT=en_US.UTF-8
 sudo update-locale LC_IDENTIFICATION=en_US.UTF-8
 sudo update-locale LC_ALL=en_US.UTF-8
 {% endhighlight %}
+
+Related
+-------
+
+When getting a mongo dump you may encounter following error:
+
+    terminate called after throwing an instance of 'std::runtime_error'
+      what():  locale::facet::_S_create_c_locale name not valid
+
+This error may be related to your locale settings and reseting all your locale may solve it.
