@@ -72,10 +72,15 @@ legend{
 }
 
 #footer {
-  margin-top: -72px;
   height: 50px;
   text-align: center;
   color: gray;
+}
+
+@media(min-width:768px){
+  #footer{
+    margin-top: -72px;
+  }
 }
 
 #socialBtn{
