@@ -83,6 +83,12 @@ legend{
   }
 }
 
+@media(min-width:530px){
+  #socialContainer{
+    float: right;
+  }
+}
+
 #socialBtn{
   font-size: 25px;
   color: whitesmoke;
