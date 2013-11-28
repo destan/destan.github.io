@@ -6,17 +6,17 @@ tags: yeni-baslayanlar bilgisayar-muhendisligine-yeni-baslayanlara-tavsiyeler bi
 draft: true
 ---
 
-Başarılı bir bilgisayar mühendisliği öğrencisiydim, iyi bir derece ile mezun oldum, 3 yıllık kısa kariyerim süresince iş bulmakta hiç zorluk çekmedim ve sektördeki söz sahibi firmalarda çalıştım. Dolayısıyla önerilerimin bilgisayar mühendiliğine yeni başlayan arkadaşlara yararlı olacağını düşünüyorum.
+Başarılı bir bilgisayar mühendisliği öğrencisiydim, iyi bir derece ile mezun oldum, 3 yıllık kısa kariyerim süresince iş bulmakta hiç zorluk çekmedim ve sektördeki söz sahibi firmalarda çalıştım. Dolayısıyla önerilerimin bilgisayar mühendisliğine yeni başlayan arkadaşlara yararlı olacağını düşünüyorum.
 
 **Advice #1:**  Learn English, read English and think in English! Don't translate what you read/hear into Turkish. You can't survive with such a way in this arena, this way is not effective at all. Like or not computer world's official language is English, at least for this decade. You have to accept it and adapt to it. If you don't agree with me you can fuck off.
 
-Note that this has nothing to do with ignoring or humiliating or disdaining Turkish, this is just being realistic. You will have all the books, articles, tutorials in English. Even you find translations of those what about forums, <a href="http://stackoverflow.com" target="_blank">stackoverflow.com</a>, email lists and IRC? These are the holly places when you seek solutions for  your computing problems.
+Note that this has nothing to do with ignoring or humiliating or disdaining Turkish, this is just being realistic. You will have all the books, articles, tutorials in English. Even you find translations of those then what about forums, <a href="http://stackoverflow.com" target="_blank">stackoverflow.com</a>, email lists and IRC? These are the holly places when you seek solutions for  your computing problems.
 
 --------------------
 
 **Advice #2:** Question everything! Ask questions about everything you learn, you currently know and you are told. Ask questions not only to people but also to yourself and prefer asking questions to yourself than asking to other people.
 
-Having questions without answers is meaningless, seek and find answers to your questions, if you don't really comfortable with the answer you find then keep asking. Whenever you are unable to answer a question then research it if you still can't find it then you can ask to a person.
+Having questions without answers is meaningless, seek and find answers to your questions, if you don't really comfortable with the answer you find then keep asking. Whenever you are unable to answer a question research it. If you still can't find it then you can ask to a person.
 
 Asking questions is the most important property of an engineer or scientist, without it you are a worthless shit.
 
@@ -30,7 +30,7 @@ The way to find answers to those questions is obvious: <a href="http://en.wikipe
 
 --------------------
 
-**Advice #3:** Learn how to report problems. Never say things like "X program doesn't work", "Y program is broken", "Not compiling"... If only you could see yourself from somebody else's eyes while telling those words... Those are vogue, very open, very general problem statements.
+**Advice #3:** Learn how to report problems. Never say things like "program X doesn't work", "program Y is broken", "Not compiling"... If only you could see yourself from somebody else's eyes while telling those words... Those are vogue, very open, very general problem statements.
 
 **Read**  logs and error messages **carefully** , they are for you! Pay attention to those logs and messages and report them properly, please take a look to followings:
 <ul>
@@ -41,7 +41,7 @@ The way to find answers to those questions is obvious: <a href="http://en.wikipe
 	<li>Why? Because there are trillions of compiling problems and the person you're talking to have no chance of guessing it. Since you have the error log in your compiler why don't you read and tell this?</li>
 </ul>
 </li>
-	<li>When reporting a not working program
+	<li>When reporting a not-working program
 <ul>
 	<li>This program is not working [Wrong]</li>
 	<li>I do this(click onto X button), I expect to happen bla bla(open an edit window) but instead happens this(but nothing shows up) [Better]</li>
