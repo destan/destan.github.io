@@ -2,14 +2,14 @@
 layout: post
 title: "phantomjs installation on lxc"
 category: development
+tags: phantomjs lxc installation error
 ---
 
-Download phantomjs over phantomjs.org/download.html then untargz it. After linking it your path in order to call `phantomjs` directly from console:
+Download phantomjs over phantomjs.org/download.html then untargz it. Then link it to your path in order to call `phantomjs` directly from console:
 
     sudo ln -s /home/ubuntu/phantomjs/bin/phantomjs /usr/bin/phantomjs
     
 ## Possible errors you will encounter
-
 
     phantomjs: error while loading shared libraries: libfreetype.so.6: cannot open shared object file: No such file or directory
     
