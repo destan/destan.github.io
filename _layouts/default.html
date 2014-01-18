@@ -23,6 +23,7 @@
     <link href="{{site.url}}/assets/css/syntax.css" rel="stylesheet">
     <link href="{{site.url}}/assets/css/default.css" rel="stylesheet">
     <link href="{{site.url}}/assets/css/fontello-embedded.css" rel="stylesheet">
+    <link href="{{site.url}}/assets/css/jquery.mmenu.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -47,7 +48,33 @@
           <h1 id="siteTitle" itemprop="author" itemscope itemtype="http://schema.org/Person">
             <a href="/" itemprop="name">{{ site.name }}</a> <span class="slogan">{{ site.slogan }}</span>
           </h1>
-          <div class="navbar">
+
+          <span class="visible-phone">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="container">
+                  <ul class="nav">
+                    <li id="menuStr"><a href="#pushMenu"><img width="32" src="/assets/img/menu.png"> <span>Menu</span></a></li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+
+            <nav id="pushMenu">
+              <ul class="List">
+                <li id="aboutBtnPsh"><a href="/">About</a></li>
+                <li id="blogBtnPsh"><a href="/blog">Blog</a></li>
+                <li id="projectsBtnPsh"><a href="/projects">Projects</a></li>
+                <li class="socialBtnPsh"><a href="https://twitter.com/dorukdestan"><i class="icon-twitter"></i> Twitter</a></li>
+                <li class="socialBtnPsh"><a href="https://github.com/destan"><i class="icon-github"></i> Github</a></li>
+                <li class="socialBtnPsh"><a href="http://www.linkedin.com/in/dorukdestan"><i class="icon-linkedin"></i> Linkedin</a></li>
+                <li class="socialBtnPsh"><a href="https://plus.google.com/u/0/107372055220510088187"><i class="icon-plus"></i> +Google</a></li>
+              </ul>
+            </nav>
+          </span>
+
+          <div class="navbar visible-desktop visible-tablet">
             <div class="navbar-inner">
               <div class="container">
                 <ul class="nav">
@@ -57,10 +84,10 @@
                 </ul>
 
                 <ul id="socialContainer" class="nav">
-                  <li title="Destan Sarpkaya on Twitter" id="socialBtn"><a href="https://twitter.com/dorukdestan"><i class="icon-twitter"></i></a></li>
-                  <li title="Destan Sarpkaya Projects on Github" id="socialBtn"><a href="https://github.com/destan"><i class="icon-github"></i></a></li>
-                  <li title="Destan Sarpkaya CV" id="socialBtn"><a href="http://www.linkedin.com/in/dorukdestan"><i class="icon-linkedin"></i></a></li>
-                  <li title="Destan Sarpkaya on Google plus" id="socialBtn"><a href="https://plus.google.com/u/0/107372055220510088187"><i class="icon-plus"></i></a></li>
+                  <li title="Destan Sarpkaya on Twitter" class="socialBtn"><a href="https://twitter.com/dorukdestan"><i class="icon-twitter"></i></a></li>
+                  <li title="Destan Sarpkaya Projects on Github" class="socialBtn"><a href="https://github.com/destan"><i class="icon-github"></i></a></li>
+                  <li title="Destan Sarpkaya CV" class="socialBtn"><a href="http://www.linkedin.com/in/dorukdestan"><i class="icon-linkedin"></i></a></li>
+                  <li title="Destan Sarpkaya on Google plus" class="socialBtn"><a href="https://plus.google.com/u/0/107372055220510088187"><i class="icon-plus"></i></a></li>
                 </ul>
 
               </div>
@@ -73,6 +100,7 @@
         <!-- Placed before content so that the content is able to load jQuery plugins -->
         <script src="{{site.url}}/assets/js/jquery.js"></script>
         <script src="{{site.url}}/assets/js/bootstrap-min.js"></script>
+        <script src="{{site.url}}/assets/js/jquery.mmenu.js"></script>
         <script type="text/javascript">
           // Hacky but works, make current page's corresponding button active in navbar
           $(function() {
@@ -81,6 +109,15 @@
               color = $button.css('border-bottom-color');
             $button.addClass('active');
             $button.closest('.navbar-inner').css('border-left-color', color);
+          });
+
+          // initiate push menu
+          $('#pushMenu').mmenu({
+            dragOpen: true
+          });
+
+          $('#menuStr').click(function() {
+            $('#pushMenu').trigger('open');
           });
         </script>
 

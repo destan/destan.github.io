@@ -45,6 +45,26 @@ legend{
   color: #eee !important;
 }
 
+#menuStr{
+  font-size: 2rem;
+}
+
+#projectsBtnPsh{
+  border-left: 4px solid #8BB815;
+}
+
+#blogBtnPsh{
+  border-left: 4px solid #1E81F5;
+}
+
+#aboutBtnPsh{
+  border-left: 4px solid #F5BA1E;
+}
+
+.socialBtnPsh{
+  border-left: 4px solid whitesmoke;
+}
+
 #projectsBtn{
   border-bottom: 3px solid #8BB815;
 }
@@ -89,20 +109,15 @@ legend{
   }
 }
 
-#socialBtn{
+.socialBtn{
   font-size: 25px;
   color: whitesmoke;
   cursor: pointer;
 }
 
-#socialBtn a{
+.socialBtn a{
   padding-right: 19px;
   padding-left: 10px;
-/*  border-bottom: 3px solid whitesmoke;
-  border-right: 1px solid #888;
-  border-left: 1px solid #888;
-  padding-top: 13px;
-*/
 }
 
 .at-sign:before{
