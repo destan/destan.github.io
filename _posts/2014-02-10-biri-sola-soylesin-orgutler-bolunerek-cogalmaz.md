@@ -2,7 +2,7 @@
 layout: post
 title: "Biri Sola Söylesin Örgütler Bölünerek Çoğalmaz"
 category: politika
-tags: örgütlenme örgüt sol turkiyede-orgutlenme-ve-sol
+tags: örgütlenme örgüt sol turkiyede-orgutlenme-ve-sol fetullah-gülen
 ---
 
 En çok solcular bahseder örgütlenmeden, en çok da onlar beceremez. Hararetli sohbetlerde, duman altı odalarda memleketi "kurtarırken" örgütlenmenin önemi, nasıl yapılacağı konuşulur da konuşulur, örgütsüz hareketlerin dağılmasının kaçınılmaz olduğu falan ohooo hep konuşulur.

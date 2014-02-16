@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Basın açıklaması gerçeği"
+title: "Basın Açıklaması Gerçeği"
 category: politika
 tags: örgütlenme örgüt sol turkiyede-orgutlenme-ve-sol
 draft: true

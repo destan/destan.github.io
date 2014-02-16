@@ -18,4 +18,4 @@ Bir de bunlara oy verenler var. Onların kafa daha da kıyak. O oyu ha seçim sa
 
 Ne olsun ya, ne olsun? Olmasın. Bir de çıkmış seçilemeseler bile desteğimizi göstermek de bir şeydir demezler mi! Bu seçimde bizim partinin oylarını %2 bile artırması Türkiye'deki gerici kesimi korkutacaktır falan filan. Yav he he. İktidar partsi diğer partilerin meclise girmişinden bile korkmuyor sen neyin peşindesin.
 
-Bir insan onlarca yıllık geçmişten bir ders alır, bir çıkarım yapar. Yok!
+İnsan onlarca yıllık geçmişten bir ders alır, bir çıkarım yapar. Yok!
