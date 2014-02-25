@@ -6,11 +6,11 @@ tags: örgütlenme örgüt sol turkiyede-orgutlenme-ve-sol
 draft: true
 ---
 
-Olabildiğince kısa ve öz yazmak istiyorum o nedenle yanlış anlaşılma olmasın diye uzun açıklamalara giresim yok. Bu yazıda Türkiye solunun Gezi parkı "uyanışı" algısını eleştireceğim. Özellikle Gezi Parkı olaylarına sol kesim tarafından atfedilen değerin büyük bir yanılgı olduğunu belirtmek isterim.
+Olabildiğince kısa ve öz yazmak istiyorum o nedenle yanlış anlaşılma olmasın diye uzun açıklamalara giresim yok. Bu yazıda Türkiye solunun Gezi parkı "uyanışı" algısını eleştireceğim. Özellikle Gezi Parkı olaylarına sol kesim tarafından atfedilen değerin büyük bir yanılgı olduğunu belirterek başlamak isterim.
 
 Öncelikle benim bakış açımdan Gezi'de ne olduğunu özetleyeyim: Gezi Parkı'ndaki polis şiddetinin yanında hükümetin kışkırtıcı ve meydan okuyucu tavrı kamuoyunda dalga dalga tepki yaratmaya başladı. İnsanlar görüşlerinin önemsiz olduğunu ve devletin sokaklarda kendilerini dövmeye hakkı olduğunu görüp çok sinirlendiler. Sinirlenmekte hakılıydılar da. Bunun yanında hükümetin kışkırtıcı tavrı günlerce devam etti.
 
-Sonuçta yüz binlerce ve belki milyonlarca insan ülke çapında sokaklara dökülüp gösteriler yapmaya başladılar. Yıllardır gösteri yapmayı bir araç değil amaç edinmiş sol örgütler; birden sokağa dökülmeye, hatta polisle çatışmaya hazır yüz binlerle karşılaşınca afalladılar. Sonra en iyi bildikleri şeyi yaparak bir birlerine saldırdılar! O parti gösteriyi kedi çıkarı için kullanmak istemiş, öbürü başta yokmuş sonradan gelmiş en birinci aslında kendi partileriymiş.
+Sonuçta yüz binlerce ve belki milyonlarca insan ülke çapında sokaklara dökülüp gösteriler yapmaya başladılar. Yıllardır **gösteri yapmayı bir araç değil amaç edinmiş** sol örgütler; birden sokağa dökülmeye, hatta polisle çatışmaya hazır yüz binlerle karşılaşınca afalladılar. Sonra en iyi bildikleri şeyi yaparak bir birlerine saldırdılar! O parti gösteriyi kedi çıkarı için kullanmak istemiş, öbürü başta yokmuş sonradan gelmiş, en birinci aslında kendi partileriymiş.
 
 Yaşasın örgütsüz mücadele!
 --------------------------
@@ -59,4 +59,4 @@ Gezi Ruhu seçim çalışmalarında nerede, en önemli demokrasi mücadelesinde 
 
 <span id="O yaşta ölmek kolay mı?"> </span>
 
-[1] _O yaşta ölmek kolay mı? : Olaylar sırasında ölen gençleri kasdederek böyle diyenler olabilir ancak bu anlamsız bir demagojiden öteye gidemez._
+[1] _O yaşta ölmek kolay mı? : Olaylar sırasında ölen gençleri kasdederek böyle diyenler olabilir ancak bu ucuz bir demagojiden öteye gidemez._

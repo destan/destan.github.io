@@ -2,15 +2,27 @@
 layout: post
 title: "Bilgisayar Mühendisliği Öğrencilerine Öğütler"
 categories: hayat
-tags: yeni-baslayanlar bilgisayar-muhendisligine-yeni-baslayanlara-tavsiyeler bilgisayar-muhendisligi-ogrencilerine-tavsiyeler
+tags: yeni-başlayanlar bilgisayar-mühendisliği-öğrencilerine-öğütler bilgisayar-mühendisliği-öğrencilerine-tavsiyeler bilgisayar-mühendisliğine-yeni-başlayanlara-öğütler bilgisayar-mühendisliğine-yeni-başlayanlara-tavsiyeler
 draft: true
 ---
 
-Başarılı bir bilgisayar mühendisliği öğrencisiydim, iyi bir derece ile mezun oldum, 3 yıllık kısa kariyerim süresince iş bulmakta hiç zorluk çekmedim ve sektördeki söz sahibi firmalarda çalıştım. Dolayısıyla önerilerimin bilgisayar mühendisliğine yeni başlayan arkadaşlara yararlı olacağını düşünüyorum.
+Başarılı bir bilgisayar mühendisliği öğrencisiydim, iyi bir derece ile mezun oldum, 3 yıllık kısa kariyerim süresince iş bulmakta hiç zorluk çekmedim, mezun olduktan sonra başvurup da kabul edilmediğim bir yer olmadı ve sektördeki söz sahibi firmalarda çalıştım. Dolayısıyla önerilerimin bilgisayar mühendisliğine yeni başlayan arkadaşlara yararlı olacağını düşünüyorum.
 
-**Advice #1:**  Learn English, read English and think in English! Don't translate what you read/hear into Turkish. You can't survive with such a way in this arena, this way is not effective at all. Like or not computer world's official language is English, at least for this decade. You have to accept it and adapt to it. If you don't agree with me you can fuck off.
+**Advice #0:**  Learn English, read English and think in English! Don't translate what you read/hear into Turkish. You can't survive with such a way in this arena, this way is not effective at all. Like or not computer world's official language is English, at least for this decade. You have to accept it and adapt to it. If you think you can learn things in Turkish too then navigate away from this page now.
 
 Note that this has nothing to do with ignoring or humiliating or disdaining Turkish, this is just being realistic. You will have all the books, articles, tutorials in English. Even you find translations of those then what about forums, <a href="http://stackoverflow.com" target="_blank">stackoverflow.com</a>, email lists and IRC? These are the holly places when you seek solutions for  your computing problems.
+
+--------------------
+
+**Advice #1:** Ask yourself this question:
+
+> Would I be creating* software even if I didn't need money?
+
+\* Creating software may mean coding, designing or architecturing it.
+
+If your answer is like `hmm maybe` or `meh don't think so` then quit your department and pick another one.
+
+You may not want to deal with writing code or designing software architecture in the future. You may prefer being a project manager or a department head. Then why bother learning operating systems or data structures or automata? You really won't need them. Go to another department like industrial engineering or something.
 
 --------------------
 
@@ -52,7 +64,7 @@ The way to find answers to those questions is obvious: <a href="http://en.wikipe
 
 --------------------
 
-**Advice #4:** Learn how to use Google. No you don't know! I am sure you don't know because if you knew you would never need to ask questions to your teaching assistants or professors and you would be able to finish your baby-toy home works...
+**Advice #4:** Learn how to use Google. No you don't know! I am sure you don't know because if you knew you would never need to ask questions to your teaching assistants or professors and you would be able to finish your baby-toy home works.
 
 Ask questions to Google as you should do in **Advice #2** . But remember that it is not a human and works with <em>key-words. </em>For example you are given a home work in C which requires use of two dimensional arrays. But you haven't been taught this concept yet! What you will do now? How can you do this without knowing anything about two dimensional arrays?
 
@@ -60,7 +72,7 @@ Always think in this way: "Am I the first one who encountered this problem". The
 
 So go to Google and pick your keywords wisely:<em> two dimensional array in C example</em>
 
-Another advice on Google search results: prefer <a href="http://stackoverflow.com/" target="_blank">stackoverflow.com</a> results firstly, if they don't answer your question the visit other results.
+Another advice on Google search results: prefer <a href="http://stackoverflow.com/" target="_blank">stackoverflow.com</a> results over the others.
 
 --------------------
 
@@ -68,7 +80,7 @@ Another advice on Google search results: prefer <a href="http://stackoverflow.co
 
 There will be people, even your professors, spouting(talking) about "you don't  have to learn Linux" or "all the big companies use Windows" etc. Don't believe them, those are all lies. You can tell those people to go to hell and don't listen to them ever again.
 
-Prefer Ubuntu, it is the most user-friendly Linux distribution nowadays, it has plenty of software and very good community support.
+Prefer Ubuntu or Mint, they are the most user-friendly Linux distributions nowadays, both have plenty of software and very good community support.
 
 The biggest problem with Linux is the Microsoft Office. You will need Microsoft Office desperately but there are solutions for this (no the solution is not OpenOffice or LibreOffice).
 
@@ -80,14 +92,10 @@ Learning Linux is not a fast start. So you can start from those online sources w
 
 --------------------
 
-**Advice #6:** Don't wait for writing programs until you are said so. Without a homework or project you should start creating something. With a language you already know or with a language you always wanted to learn, start writing little programs. No matter what they do or, how well you know programming. When you start writing software, you start learning. Every software you write will be better than previous one.
+**Advice #6:** Don't wait for writing programs until you are said so. Without a homework or project you should start creating something. With a language you already know or with a language you always wanted to learn, start writing little programs. No matter what they do or, how well you know programming. When you start writing software, you start learning. Every software you write will be better than the previous one.
 
 Don't wait until somebody teaches you Java, Python or Javascript. As a matter of fact no body could really teach you anything. You have to learn them yourself. You just need to find correct places on the internet. For this purpose, Google is your friend.
 
 --------------------
-
-**Advice #7 The Last:**  You may not want to write code in the future, you may prefer being a project manager or a department head. Even in those cases you need to know how to program, how to code and how to create software. Otherwise you will be fooled by developers/testers or you won't be able to fully understand what is really going on and what is the project's real state/risks. So don't underestimate programming skills and don't ever think they are for geeks and you will never gonna need them.
-
-On the other hand if you already think you won't be working on a business related to software then just give up your department right now and pick another one.
 
 Happy coding guys...

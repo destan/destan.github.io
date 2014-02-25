@@ -6,7 +6,7 @@ tags: örgütlenme örgüt sol turkiyede-orgutlenme-ve-sol
 draft: true
 ---
 
-Pek sever solcular sessiz kalmamayı, tepki koymayı, sol yumrukları pek güçlüdür. Bu sefer değil ama bi' dahaki sefere yumrukları faşistlerin suratına gülle gibi inecektir. Yeri gelir sokaklarda sel olur akar, yeri gelir polisin karşısında duvar olur dururlar. Hey maşallah bu yöntemlerle neleri yoluna koymuş, yoluna koyamasalar bile kaç yurttaşı bilinçlendirmişlerdir, ohooo sayamazsınız.
+Pek sever solcular sessiz kalmamayı, tepki koymayı. Sol yumrukları pek güçlüdür. Bu sefer değil ama bi' dahaki sefere yumrukları faşistlerin suratına gülle gibi inecektir. Yeri gelir sokaklarda sel olur akar, yeri gelir polisin karşısında duvar olur dururlar. Hey maşallah bu yöntemlerle neleri yoluna koymuş, yoluna koyamasalar bile kaç yurttaşı bilinçlendirmişlerdir, ohooo sayamazsınız.
 
 Belki teorik olarak ortaya koymak çok güç, belki bilimsel olarak ön görmek de zor ancak en azından tarihsel olarak bakıp anlasak ya. Yürüyerek neyi düzeltebildiniz? Bütün ülke yürüse umrunda olmayacak bir hükümete karşı bu anlamsız çaba neden?
 
@@ -14,6 +14,13 @@ Tek bir örnek
 -------------
 
 Tekel işçilerinin direnişi ne oldu? Hem de bizim standartlarımıza göre baya örgütlü bir direnişti. Ne oldu? Hiç birşey! Bolca basınçlı su, biber gazı ve dayak. Bir yaptırımın yoksa yürümek nafile, istediğin kadar grev yap seni koruyan yasalar yoksa veya o yasalar işlemiyorsa sen açlıktan kıvranırken senin yarı maaşına birisi tezgaha çoktan geçmiş olur.
+
+Halk için halka rağmen
+----------------------
+
+İşte kabullenmeniz gereken bir acı gerçek daha: Halk gösteri yapan solculardan nefret ediyor. Siz sokaklarda yürürken _aferin çocuğum_ diyen 3-5 demokrat yaşlı amcaya teyzeye kanıp halk sizi destekliyor sanmanız ne kadar komik.
+
+İnsanlardaki komünizm korkusu 80lerdeki kadar taze. Sizler halkın gözünde anarşist, başı boş, sokakları dağıtıp ateş yakan isyancılarsınız. Gerçekte öyle olmamanız hiç bir şey değiştirmiyor çünkü aslolan algıdır.
 
 Aslında o zırhı giymese var yaa
 -------------------------------
