@@ -3,7 +3,6 @@ layout: post
 title: "Abartılmış Gerçeklik ve Gezi Parkı Uyanışı(!)"
 category: politika
 tags: örgütlenme örgüt sol turkiyede-orgutlenme-ve-sol
-draft: true
 ---
 
 Olabildiğince kısa ve öz yazmak istiyorum o nedenle yanlış anlaşılma olmasın diye uzun açıklamalara giresim yok. Bu yazıda Türkiye solunun Gezi parkı "uyanışı" algısını eleştireceğim. Özellikle Gezi Parkı olaylarına sol kesim tarafından atfedilen değerin büyük bir yanılgı olduğunu belirterek başlamak isterim.

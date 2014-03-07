@@ -8,7 +8,7 @@ draft: true
 
 Başarılı bir bilgisayar mühendisliği öğrencisiydim, iyi bir derece ile mezun oldum, 3 yıllık kısa kariyerim süresince iş bulmakta hiç zorluk çekmedim, mezun olduktan sonra başvurup da kabul edilmediğim bir yer olmadı ve sektördeki söz sahibi firmalarda çalıştım. Dolayısıyla önerilerimin bilgisayar mühendisliğine yeni başlayan arkadaşlara yararlı olacağını düşünüyorum.
 
-**Advice #0:**  Learn English, read English and think in English! Don't translate what you read/hear into Turkish. You can't survive with such a way in this arena, this way is not effective at all. Like or not computer world's official language is English, at least for this decade. You have to accept it and adapt to it. If you think you can learn things in Turkish too then navigate away from this page now.
+**Advice #0:** Learn English, read English and think in English! Don't translate what you read/hear into Turkish. You can't survive with such a way in this arena, this way is not effective at all. Like or not computer world's official language is English, at least for this decade. You have to accept it and adapt to it. If you think you can learn things in Turkish too then navigate away from this page now.
 
 Note that this has nothing to do with ignoring or humiliating or disdaining Turkish, this is just being realistic. You will have all the books, articles, tutorials in English. Even you find translations of those then what about forums, <a href="http://stackoverflow.com" target="_blank">stackoverflow.com</a>, email lists and IRC? These are the holly places when you seek solutions for  your computing problems.
 
@@ -18,7 +18,7 @@ Note that this has nothing to do with ignoring or humiliating or disdaining Tur
 
 > Would I be creating* software even if I didn't need money?
 
-\* Creating software may mean coding, designing or architecturing it.
+.* Creating software may mean coding, designing or architecturing it.
 
 If your answer is like `hmm maybe` or `meh don't think so` then quit your department and pick another one.
 
@@ -30,7 +30,7 @@ You may not want to deal with writing code or designing software architecture in
 
 Having questions without answers is meaningless, seek and find answers to your questions, if you don't really comfortable with the answer you find then keep asking. Whenever you are unable to answer a question research it. If you still can't find it then you can ask to a person.
 
-Asking questions is the most important property of an engineer or scientist, without it you are a worthless shit.
+Asking questions is the most important property of an engineer or scientist, without it you are worthless.
 
 The way to find answers to those questions is obvious: <a href="http://en.wikipedia.org/wiki/Scientific_method#Elements_of_the_scientific_method" target="_blank">Scientific method</a>:
 <ul>
@@ -50,14 +50,14 @@ The way to find answers to those questions is obvious: <a href="http://en.wikipe
 <ul>
 	<li>Not compiling... [Wrong]</li>
 	<li>Not compiling because of following error: &lt;Error log from compiler&gt;. I started to get this error after changing bla bla bla. [Better]</li>
-	<li>Why? Because there are trillions of compiling problems and the person you're talking to have no chance of guessing it. Since you have the error log in your compiler why don't you read and tell this?</li>
+	<li><strong>Why?</strong>  Because there are trillions of compiling problems and the person you're talking to have no chance of guessing it. Since you have the error log in your compiler why don't you read and tell this?</li>
 </ul>
 </li>
 	<li>When reporting a not-working program
 <ul>
 	<li>This program is not working [Wrong]</li>
 	<li>I do this(click onto X button), I expect to happen bla bla(open an edit window) but instead happens this(but nothing shows up) [Better]</li>
-	<li>Why? Because "not working" is not an explanation. Maybe it is working as it should be but you don't understand it. As long as you clearly state what you do, what you expect and what you get instead, it is easier for anybody to help you about your problem.</li>
+	<li><strong>Why?</strong>  Because "not working" is not an explanation. Maybe it is working as it should be but you don't understand it. As long as you clearly state what you do, what you expect and what you get instead, it is easier for anybody to help you about your problem.</li>
 </ul>
 </li>
 </ul>
@@ -66,9 +66,13 @@ The way to find answers to those questions is obvious: <a href="http://en.wikipe
 
 **Advice #4:** Learn how to use Google. No you don't know! I am sure you don't know because if you knew you would never need to ask questions to your teaching assistants or professors and you would be able to finish your baby-toy home works.
 
-Ask questions to Google as you should do in **Advice #2** . But remember that it is not a human and works with <em>key-words. </em>For example you are given a home work in C which requires use of two dimensional arrays. But you haven't been taught this concept yet! What you will do now? How can you do this without knowing anything about two dimensional arrays?
+Ask questions to Google as you should do in **Advice #3** . But remember that it is not a human and works with <em>key-words. </em>For example you are given a home work in C which requires use of two dimensional arrays. But you haven't been taught this concept yet! What will you do now? How can you do this without knowing anything about two dimensional arrays?
 
-Always think in this way: "Am I the first one who encountered this problem". The answer is NO, of course. Somebody asked about very similar things on the net and somebody already answered it. Because for more than 20 years people are studying computer science.
+Always think in this way: 
+
+> Am I the first one who encountered this problem?
+
+The answer is **NO**, of course. Somebody asked about very similar things on the net and somebody already answered it. Because people are studying computer science since the invention of the internet.
 
 So go to Google and pick your keywords wisely:<em> two dimensional array in C example</em>
 
