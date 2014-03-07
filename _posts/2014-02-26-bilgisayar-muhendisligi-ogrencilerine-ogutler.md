@@ -50,14 +50,14 @@ The way to find answers to those questions is obvious: <a href="http://en.wikipe
 <ul>
 	<li>Not compiling... [Wrong]</li>
 	<li>Not compiling because of following error: &lt;Error log from compiler&gt;. I started to get this error after changing bla bla bla. [Better]</li>
-	<li><strong>Why?</strong>  Because there are trillions of compiling problems and the person you're talking to have no chance of guessing it. Since you have the error log in your compiler why don't you read and tell this?</li>
+	<li>Why?  Because there are trillions of compiling problems and the person you're talking to have no chance of guessing it. Since you have the error log in your compiler why don't you read and tell this?</li>
 </ul>
 </li>
 	<li>When reporting a not-working program
 <ul>
 	<li>This program is not working [Wrong]</li>
 	<li>I do this(click onto X button), I expect to happen bla bla(open an edit window) but instead happens this(but nothing shows up) [Better]</li>
-	<li><strong>Why?</strong>  Because "not working" is not an explanation. Maybe it is working as it should be but you don't understand it. As long as you clearly state what you do, what you expect and what you get instead, it is easier for anybody to help you about your problem.</li>
+	<li>Why?  Because "not working" is not an explanation. Maybe it is working as it should be but you don't understand it. As long as you clearly state what you do, what you expect and what you get instead, it is easier for anybody to help you about your problem.</li>
 </ul>
 </li>
 </ul>
