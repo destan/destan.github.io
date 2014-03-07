@@ -3,6 +3,7 @@ layout: post
 title: "Bilgisayar Mühendisliği Öğrencilerine Öğütler"
 categories: hayat
 tags: yeni-başlayanlar bilgisayar-mühendisliği-öğrencilerine-öğütler bilgisayar-mühendisliği-öğrencilerine-tavsiyeler bilgisayar-mühendisliğine-yeni-başlayanlara-öğütler bilgisayar-mühendisliğine-yeni-başlayanlara-tavsiyeler
+draft: true
 ---
 
 Başarılı bir bilgisayar mühendisliği öğrencisiydim, iyi bir derece ile mezun oldum, 3 yıllık kısa kariyerim süresince iş bulmakta hiç zorluk çekmedim, mezun olduktan sonra başvurup da kabul edilmediğim bir yer olmadı ve sektördeki söz sahibi firmalarda çalıştım. Dolayısıyla önerilerimin bilgisayar mühendisliğine yeni başlayan arkadaşlara yararlı olacağını düşünüyorum.
