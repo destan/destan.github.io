@@ -9,7 +9,7 @@ Olabildiğince kısa ve öz yazmak istiyorum o nedenle yanlış anlaşılma olma
 
 Öncelikle benim bakış açımdan Gezi'de ne olduğunu özetleyeyim: Gezi Parkı'ndaki polis şiddetinin yanında hükümetin kışkırtıcı ve meydan okuyucu tavrı kamuoyunda dalga dalga tepki yaratmaya başladı. İnsanlar görüşlerinin önemsiz olduğunu ve devletin sokaklarda kendilerini dövmeye hakkı olduğunu görüp çok sinirlendiler. Sinirlenmekte hakılıydılar da. Bunun yanında hükümetin kışkırtıcı tavrı günlerce devam etti.
 
-Sonuçta yüz binlerce ve belki milyonlarca insan ülke çapında sokaklara dökülüp gösteriler yapmaya başladılar. Yıllardır **gösteri yapmayı bir araç değil amaç edinmiş** sol örgütler; birden sokağa dökülmeye, hatta polisle çatışmaya hazır yüz binlerle karşılaşınca afalladılar. Sonra en iyi bildikleri şeyi yaparak bir birlerine saldırdılar! O parti gösteriyi kedi çıkarı için kullanmak istemiş, öbürü başta yokmuş sonradan gelmiş, en birinci aslında kendi partileriymiş.
+Sonuçta yüz binlerce ve belki milyonlarca insan ülke çapında sokaklara dökülüp gösteriler yapmaya başladılar. Yıllardır **gösteri yapmayı bir araç değil amaç edinmiş** sol örgütler; birden sokağa dökülmeye, hatta polisle çatışmaya hazır yüz binlerle karşılaşınca afalladılar. Sonra en iyi bildikleri şeyi yaparak bir birlerine saldırdılar! O parti gösteriyi kendi çıkarı için kullanmak istemiş, öbürü başta yokmuş sonradan gelmiş, en birinci aslında kendi partileriymiş.
 
 Yaşasın örgütsüz mücadele!
 --------------------------
