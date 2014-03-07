@@ -72,7 +72,7 @@ Always think in this way:
 
 > Am I the first one who encountered this problem?
 
-The answer is **NO**, of course. Somebody asked about very similar things on the net and somebody already answered it. Because people are studying computer science since the invention of the internet.
+The answer is NO, of course. Somebody asked about very similar things on the net and somebody already answered it. Because people are studying computer science since the invention of the internet.
 
 So go to Google and pick your keywords wisely:<em> two dimensional array in C example</em>
 
