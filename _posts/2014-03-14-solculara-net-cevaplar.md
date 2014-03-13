@@ -5,7 +5,7 @@ category: politika
 tags: örgütlenme örgüt sol turkiyede-orgutlenme-ve-sol
 ---
 
-Türkiye'deki solcuların matematiklerinin zayıf olduğunu çıkardım sonunda. Seçim barajının %10 olduğu ve kuruluşundan bu yana %5 bile alamamış siyasi partilerin amacı nedir? NEDİR? Nedenini geçtim ama bir şekilde senin oyun %5 bile değil, tarihinde yaklaşamamışsın bile, neden bu seçimde farklı olsun? Ne değişti, ne değiştirdin ki farklı olsun?
+Türkiye'deki solcuların matematiklerinin zayıf olduğunu çıkardım sonunda. Seçim barajının %10 olduğu bir ortamda kuruluşundan bu yana %5 bile alamamış siyasi partilerin amacı nedir? NEDİR? Nedenini geçtim ama bir şekilde senin oyun %5 bile değil, tarihinde yaklaşamamışsın bile, neden bu seçimde farklı olsun? Ne değişti, ne değiştirdin ki farklı olsun?
 
 **Bu Partilerin Yöneticileri Sorulara Ne Diyor?**
 
