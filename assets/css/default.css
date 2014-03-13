@@ -109,6 +109,14 @@ legend{
   }
 }
 
+@media(max-width: 480px){
+  .project-github-icon{
+    float: none !important;
+    display: block;
+    margin-top: 10px;
+  }
+}
+
 .socialBtn{
   font-size: 25px;
   color: whitesmoke;
@@ -163,4 +171,22 @@ legend{
 
 .dont-show{
   display: none;
+}
+
+.project-github-icon i{
+  font-size: 2rem;
+  color: gray;
+  margin-right: 15px;
+}
+
+.project-github-icon {
+  font-size: 0.9rem;
+}
+
+.blog-excerpt{
+  border-left: 3px solid #1E81F5;
+}
+
+.project{
+  border-left: 3px solid #8BB815;
 }

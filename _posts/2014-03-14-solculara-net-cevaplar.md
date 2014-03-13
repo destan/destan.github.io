@@ -3,12 +3,15 @@ layout: post
 title: "Solculara Net Cevaplar"
 category: politika
 tags: örgütlenme örgüt sol turkiyede-orgutlenme-ve-sol
-draft: true
 ---
 
-Türkiye'deki solcuların matematiklerinin zayıf olduğunu çıkardım sonunda. Seçim barajının %10 olduğu ve kuruluşundan bu yana %5 bile alamamış siyasi partilerin amacı nedir? NEDİR? Nedenini geçtim ama bir şekilde senin oyun %5 bile değil, tarihinde yaklaşamamışsın bile, neden bu seçimde farklı olsun? Ne değişti, ne değiştirdin?
+Türkiye'deki solcuların matematiklerinin zayıf olduğunu çıkardım sonunda. Seçim barajının %10 olduğu ve kuruluşundan bu yana %5 bile alamamış siyasi partilerin amacı nedir? NEDİR? Nedenini geçtim ama bir şekilde senin oyun %5 bile değil, tarihinde yaklaşamamışsın bile, neden bu seçimde farklı olsun? Ne değişti, ne değiştirdin ki farklı olsun?
+
+**Bu Partilerin Yöneticileri Sorulara Ne Diyor?**
 
 Bu soruların yanıtı yok elbette, kendileri de bal gibi biliyorlar meclise yaklaşamayacaklarını. Amaç ne? Bence mastürbasyon, ego tatmini. 100 kişilik bir grubun yönetiminde olmak 1 milyonluk bir grubun üyesi olmaktan daha doyurucu sanırım.
+
+**Ya Oy Verenler?**
 
 Bir de bunlara oy verenler var. Onların kafa daha da kıyak. O oyu ha seçim sandığına atmışın ha çöpe, ne farkı var?
 
