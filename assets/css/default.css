@@ -199,3 +199,13 @@ legend{
 #notFoundContainer h1{
   font-size: 4rem;
 }
+
+.btn{
+  color: white;
+  background-color: darkred;
+}
+
+.btn:hover{
+  background-color: firebrick;
+  color: white;
+}
