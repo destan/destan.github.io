@@ -190,3 +190,12 @@ legend{
 .project{
   border-left: 3px solid #8BB815;
 }
+
+#notFoundContainer{
+  border-left: 3px solid #555;
+  text-align: center;
+}
+
+#notFoundContainer h1{
+  font-size: 4rem;
+}
