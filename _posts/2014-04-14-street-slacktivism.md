@@ -29,7 +29,7 @@ What happened in Gezi Parki back then?
 
 Let's recall what happened in Gezi Parki again.
 
-The protest aganist a shopping mall which was planned to be built instead of Gezi Parki, broke out and spread to nation-wide after police's violent crack down. Millions of protesters were in streets for several days demanding the cease of police violance and of cuting down the trees for mall construction. The main area of the protests was Taksim Square, located next to Gezi Parki.
+The protest aganist a shopping mall which was planned to be built instead of Gezi Parki, broke out and spread to nation-wide after police's violent crack down. Millions of protesters were on the streets for several days demanding the cease of police violance and of cuting down the trees for mall construction. The main area of the protests was Taksim Square, located next to Gezi Parki.
 
 In a short period of time, the protests turned into anti-government acts and spread all cities all over Turkey except 2 small ones.
 
