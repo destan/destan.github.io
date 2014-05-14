@@ -209,3 +209,13 @@ legend{
   background-color: firebrick;
   color: white;
 }
+
+time {
+  padding: 2px 4px;
+  color: #d14;
+  white-space: nowrap;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  font-size: 12px;
+  font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;
+}
