@@ -70,10 +70,16 @@
         </span>
         
         <div class="masthead">
-          <h1 id="siteTitle" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <a href="/" itemprop="name">{{ site.name }}</a> <span class="slogan">{{ site.slogan }}</span>
-          </h1>
 
+          {% if page.post %}
+            <div id="siteTitle" itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <a href="/" itemprop="name">{{ site.name }}</a> <span class="slogan">{{ site.slogan }}</span>
+            </div>
+          {% else %}
+            <h1 id="siteTitle" itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <a href="/" itemprop="name">{{ site.name }}</a> <span class="slogan">{{ site.slogan }}</span>
+            </h1>
+          {% endif %}
 
           <div class="navbar visible-desktop visible-tablet">
             <div class="navbar-inner">
