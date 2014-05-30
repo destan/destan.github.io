@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.dorukdestan.com/sitemap.xml
+Sitemap: http://dorukdestan.com/sitemap.xml
