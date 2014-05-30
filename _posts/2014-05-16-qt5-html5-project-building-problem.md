@@ -11,7 +11,7 @@ tags:
 
 When create a new html5 project on Qt Creator with a fresh Qt SDK installment the build fails with following compilation error:
 
-```
+{% highlight bash %}
 ...
 
 /usr/bin/ld: cannot find -lxslt
@@ -34,17 +34,16 @@ make: *** [html5-test] Error 1
 Error while building/deploying project html5-test (kit: Desktop Qt 5.2.1 GCC 64bit)
 When executing step 'Make'
 
-```
+{% endhighlight %}
 
 Solution
 --------
 
 Solution is to install dependencies via following:
 
-```
+{% highlight bash %}
 sudo aptitude install libxslt1-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
-
-```
+{% endhighlight %}
 
 **Environment**
 
