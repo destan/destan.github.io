@@ -17,9 +17,6 @@ The term street slacktivism sounds like an oxymoron at first but let me explain.
 > <br>
 > <br>
 >Actions performed via the Internet in support of a political or social cause but regarded as requiring little time or involvement, e.g. signing an online petition or joining a campaign group on a social media website:
->
-> <br>
-> Example sentence: _'such email alerts make slacktivism easy'_
 
 The definition assumes that those participating in street protests shall be considered as doing something more beneficial to reach their ultimate purpose. Well, Occupy Wall Street and Gezi Parki protests have already proved that wrong on September 2011 and June 2013 respectively.
 
@@ -39,7 +36,7 @@ Why no success?
 
 When we pour into streets rather than posting status updates to social media sites, we just seem to be doing something for the change. This illusion has two undesired results:
 
-### Democracy is about numbers
+### Democracy is about numbers yet we ignore others
 
 Changing things starts from people's minds. You need to change the way other people think so that they enjoy producing something that is beneficial for humanity instead of praying for easy money. You need to change people's moral values. You need to make humanity respect science and nature. Otherwise there is no way of changing this powerful global capitalist establishment. However, changing one's mind is not an easy job.
 
@@ -47,7 +44,7 @@ Have you ever imagined how repulsive you seem from a conservative's point of vie
 
 Without convincing people to change, nothing could be change.
 
-### The fake virtue
+### The fake virtue prevents participating more effective acts
 
 Hitting to streets, making an effort to resist police, sacrificing comfort and shouting loud about what you believe give people a chance to clear their <span class="has-translation" title="vicdan">conscience</span> about ideological responsibility. Uncaring of if the acts are resulting the desired outcome in an efficient manner, people consider themselves to have the virtue of trying to change something. _This illusive situation prevents people of participating more efficient and effective but more effort required acts like participating union organizations and political party works or trying to communicate other people to change their world views._
 
@@ -55,15 +52,15 @@ The keyword is efficiency here. Of course if it's pushed hard, there can be foun
 
 Is it worth to sacrifice a person's eye to save tens of trees while millions of others are being cut at the same time?
 
-Is it worth being tortured to death to make people think about corruption for just a second knowing that afterwards they will be brain-washed in a few hours by TVs?
+Is it worth being tortured to death to make people think about corruption for just a second, knowing that afterwards they will be brain-washed in a few hours by TVs?
 
 Is it worth to risk your life to fight to police just to give yet another press release which is surely incapable of changing or influencing anything?
 
 Is it worth to spend days or weeks on streets to gain something so tiny and practically negligible?
 
-No it isn't, it shouldn't! A human's life and time should be much more valuable than something can be spent in such inefficient ways.
+No it isn't, it shouldn't! A human's life and time are too valuable to spend in such inefficient ways.
 
-We need to invent more effective and efficient ways to change things that we don't like. Unless we are well organized and our acts are well planned we are doomed to fail again and again.
+We need to (re)invent more effective and efficient ways to change things that we don't like. Unless we are well organized and our acts are well planned we are doomed to fail again and again.
 
 Street Slacktivism
 ------------------
