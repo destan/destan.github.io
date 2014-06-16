@@ -185,8 +185,9 @@ footer {
   line-height: 49px;
   /* minus 1 to prevent that unnecessary vertical scroll */
   color: gray;
+  position: relative;
 }
-/* line 99, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 100, ../../destan.github.io/_assets/stylesheets/main.scss */
 footer #buildVersion {
   position: absolute;
   top: 0;
@@ -195,14 +196,14 @@ footer #buildVersion {
   z-index: -1;
 }
 
-/* line 109, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 110, ../../destan.github.io/_assets/stylesheets/main.scss */
 .well {
   border: 0;
   border-radius: 0;
   box-shadow: none;
 }
 
-/* line 115, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 116, ../../destan.github.io/_assets/stylesheets/main.scss */
 code {
   padding: 2px 4px;
   color: #d14;
@@ -213,18 +214,18 @@ code {
   font-size: 12px;
 }
 
-/* line 125, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 126, ../../destan.github.io/_assets/stylesheets/main.scss */
 .tooltip-inner {
   border-radius: 0;
 }
 
-/* line 129, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 130, ../../destan.github.io/_assets/stylesheets/main.scss */
 .icon-at:before {
   margin: 0;
   color: #666;
 }
 
-/* line 134, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 135, ../../destan.github.io/_assets/stylesheets/main.scss */
 pre code {
   padding: 0;
   color: inherit;
@@ -235,7 +236,7 @@ pre code {
   color: #555;
 }
 
-/* line 144, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 145, ../../destan.github.io/_assets/stylesheets/main.scss */
 pre {
   display: block;
   padding: 9.5px;
