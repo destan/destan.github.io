@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "İnsanlığın Yaptığı Evrensel Yanlışlar"
-category: politika hayat
+categories: politika hayat
 tags: bilimsel-yöntem evrensel-değerler evrensel-yanlışlar
 draft: true
 ---

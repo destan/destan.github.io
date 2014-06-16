@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tartışmaların yapıcı olmamasının temel nedenleri"
-category: politika hayat
+categories: politika hayat
 tags: bilimsel-yöntem evrensel-yanlışlar
 draft: true
 ---

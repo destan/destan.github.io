@@ -49,11 +49,13 @@ Inspired from: http://stackoverflow.com/a/16625534/878361
         {% assign is_a_page = false %} {%  if node.url contains '/page' %} {% assign is_a_page = true %} {% endif%}
 
         {% if node.in_menu != nil and is_a_page == false %}
-          <li class="{{node.menu_class}} {% if page.url == node.url or (node.url contains '/blog/' and page.in_blog) %}active{% endif %}"><a href="{{node.url | remove: 'index.html'}}">{{node.title}}</a></li>
+          <li class="{{node.menu_class}} {% if page.url == node.url or (node.url contains '/blog/' and page.in_blog) %}active{% endif %}">
+            <a href="{{node.url | remove: 'index.html'}}">{{node.menu_name}}</a>
+          </li>
           {% if node.children != nil %}
             <ul class="dropdown-menu">
             {% for child in node.children %}
-              <li class="{{child.menu_class}}"><a href="{{site.url}}/{{child.url | remove: 'index.html'}}">{{child.title}}</a></li>
+              <li class="{{child.menu_class}}"><a href="{{site.url}}/{{child.url | remove: 'index.html'}}">{{child.menu_name}}</a></li>
             {% endfor %}
             </ul>
           {% endif %}

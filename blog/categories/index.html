@@ -2,25 +2,14 @@
 layout: default
 title: Categories
 in_blog: true
-available_categories:
-  - Bilim,bilim
-  - Development,development
-  - Dil,dil
-  - Hayat,hayat
-  - Life,life
-  - Politics,politics
-  - Politika,politika
-  - Viki,viki
-  - Wiki,wiki
-  - News,news
 ---
 
 <main class="container">
 
-  <h1>Categories</h1>
+  <h2>Categories</h2>
   <ul>
-    {% for categ in page.available_categories %}
-      <li><a href="{{categ | split: ',' | last}}">{{categ | split: ',' | first}}</a></li>
+    {% for category in site.categories %}
+      <li><a href="/blog/categories/{{ category | first }}">{{ category | first | capitalize }}</a></li>
     {% endfor %}
   </ul>
 
