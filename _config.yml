@@ -1,8 +1,0 @@
-name: Destan Sarpkaya
-slogan: of life, production and consumption
-pygments: true
-timezone: Asia/Istanbul
-permalink: /blog/:title
-paginate: 11
-paginate_path: "blog/page:num"
-markdown: kramdown

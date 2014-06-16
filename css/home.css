@@ -1,0 +1,67 @@
+/* line 1, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+h2 {
+  font-size: 2rem;
+  border-bottom: 1px solid #aaa;
+  line-height: 1.5em;
+  color: #333;
+  margin-bottom: 2rem;
+}
+/* line 8, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+h2 .slogan {
+  font-size: 0.5em;
+  border-left: 1px solid;
+  padding-left: 5px;
+}
+
+/*
+  Timeline
+  ========
+*/
+/* line 19, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+#timeline > div {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/*let bootstrap tooltips wrap properly*/
+/* line 25, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+#timeline > div .tooltip {
+  white-space: normal;
+}
+
+/* line 29, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+.timeline-date {
+  text-align: right;
+  min-width: 6ex;
+  display: inline-block;
+}
+
+/* line 35, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+.timeline-desc, .timeline-date {
+  cursor: pointer;
+}
+
+/* line 39, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+.timeline-desc:before {
+  content: " ";
+}
+
+/* line 43, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+.corporate {
+  color: #1E81F5;
+}
+
+/* line 47, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+.life {
+  /*color: #F5BA1E;*/
+}
+
+/* line 51, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+.love {
+  color: firebrick;
+}
+
+/* line 55, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+.tooltip.left {
+  margin-left: -10px !important;
+}
