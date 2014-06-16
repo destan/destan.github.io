@@ -268,7 +268,7 @@
       
         <url>
             <loc>http://dorukdestan.com/404.html</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
             <changefreq>weekly</changefreq>
         </url>
       
@@ -276,87 +276,7 @@
       
         <url>
             <loc>http://dorukdestan.com/blog/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-      
-    
-      
-        <url>
-            <loc>http://dorukdestan.com/blog/categories/hayat/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-      
-    
-      
-        <url>
-            <loc>http://dorukdestan.com/blog/categories/dil/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-      
-    
-      
-        <url>
-            <loc>http://dorukdestan.com/blog/categories/wiki/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-      
-    
-      
-        <url>
-            <loc>http://dorukdestan.com/blog/categories/yaz%C4%B1l%C4%B1m/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-      
-    
-      
-        <url>
-            <loc>http://dorukdestan.com/blog/categories/viki/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-      
-    
-      
-        <url>
-            <loc>http://dorukdestan.com/blog/categories/politics/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-      
-    
-      
-        <url>
-            <loc>http://dorukdestan.com/projects/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-      
-    
-      
-        <url>
-            <loc>http://dorukdestan.com/blog/categories/politika/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-      
-    
-      
-        <url>
-            <loc>http://dorukdestan.com/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-      
-    
-      
-        <url>
-            <loc>http://dorukdestan.com/blog/categories/life/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
             <changefreq>weekly</changefreq>
         </url>
       
@@ -364,23 +284,23 @@
       
         <url>
             <loc>http://dorukdestan.com/blog/categories/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
             <changefreq>weekly</changefreq>
         </url>
       
     
       
         <url>
-            <loc>http://dorukdestan.com/blog/categories/development/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
+            <loc>http://dorukdestan.com/projects/</loc>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
             <changefreq>weekly</changefreq>
         </url>
       
     
       
         <url>
-            <loc>http://dorukdestan.com/blog/categories/bilim/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
+            <loc>http://dorukdestan.com/</loc>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
             <changefreq>weekly</changefreq>
         </url>
       
@@ -388,7 +308,7 @@
       
         <url>
             <loc>http://dorukdestan.com/notes.html</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
             <changefreq>weekly</changefreq>
         </url>
       
@@ -397,8 +317,88 @@
     
       
         <url>
+            <loc>http://dorukdestan.com/blog/categories/life/</loc>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+      
+    
+      
+        <url>
+            <loc>http://dorukdestan.com/blog/categories/politics/</loc>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+      
+    
+      
+        <url>
+            <loc>http://dorukdestan.com/blog/categories/politika/</loc>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+      
+    
+      
+        <url>
+            <loc>http://dorukdestan.com/blog/categories/hayat/</loc>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+      
+    
+      
+        <url>
+            <loc>http://dorukdestan.com/blog/categories/development/</loc>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+      
+    
+      
+        <url>
+            <loc>http://dorukdestan.com/blog/categories/bilim/</loc>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+      
+    
+      
+        <url>
+            <loc>http://dorukdestan.com/blog/categories/dil/</loc>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+      
+    
+      
+        <url>
+            <loc>http://dorukdestan.com/blog/categories/yaz%C4%B1l%C4%B1m/</loc>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+      
+    
+      
+        <url>
+            <loc>http://dorukdestan.com/blog/categories/viki/</loc>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+      
+    
+      
+        <url>
+            <loc>http://dorukdestan.com/blog/categories/wiki/</loc>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+      
+    
+      
+        <url>
             <loc>http://dorukdestan.com/blog/page2/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
             <changefreq>weekly</changefreq>
         </url>
       
@@ -406,7 +406,7 @@
       
         <url>
             <loc>http://dorukdestan.com/blog/page3/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
             <changefreq>weekly</changefreq>
         </url>
       
@@ -414,7 +414,7 @@
       
         <url>
             <loc>http://dorukdestan.com/blog/page4/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
             <changefreq>weekly</changefreq>
         </url>
       
@@ -422,7 +422,7 @@
       
         <url>
             <loc>http://dorukdestan.com/blog/page5/</loc>
-            <lastmod>2014-06-16T17:13:31+03:00</lastmod>
+            <lastmod>2014-06-16T19:32:11+03:00</lastmod>
             <changefreq>weekly</changefreq>
         </url>
       
