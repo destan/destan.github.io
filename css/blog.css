@@ -1,21 +1,21 @@
-/* line 4, ../../dorukdestan.com/_assets/stylesheets/blog.scss */
+/* line 4, ../../destan.github.io/_assets/stylesheets/blog.scss */
 .pagination * {
   border-radius: 0 !important;
 }
 
-/* line 9, ../../dorukdestan.com/_assets/stylesheets/blog.scss */
+/* line 9, ../../destan.github.io/_assets/stylesheets/blog.scss */
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
   background-color: darkred;
   border-color: darkred;
   color: white;
 }
 
-/* line 15, ../../dorukdestan.com/_assets/stylesheets/blog.scss */
+/* line 15, ../../destan.github.io/_assets/stylesheets/blog.scss */
 .pagination > li > a, .pagination > li > a:hover, .pagination > li > a:active, .pagination > li > a:visited, .pagination > li > span {
   color: darkred;
 }
 
-/* line 19, ../../dorukdestan.com/_assets/stylesheets/blog.scss */
+/* line 19, ../../destan.github.io/_assets/stylesheets/blog.scss */
 .blog-excerpt {
   border-left: 3px solid #1E81F5;
 }

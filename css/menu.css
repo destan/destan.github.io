@@ -1,78 +1,78 @@
-/* line 1, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 1, ../../destan.github.io/_assets/stylesheets/menu.scss */
 nav.navbar {
   border-radius: 0;
 }
 
-/* line 5, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 5, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .active {
   background-color: #555;
 }
 
-/* line 8, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 8, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: white;
   background-color: #555;
 }
 
-/* line 13, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 13, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar-default {
   background-color: #aaa;
   border: 0;
   border-left: 10px solid #888;
 }
-/* line 18, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 18, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:visited, .navbar-default .navbar-nav > li > a:active {
   padding: 15px 15px 15px;
   color: #ffffff;
   text-decoration: none;
   text-shadow: 0 1px 0 #080808;
 }
-/* line 25, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 25, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar-default .navbar-collapse {
   padding-left: 0;
 }
 
-/* line 31, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 31, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li {
   border-bottom: 3px solid #888;
 }
 
-/* line 35, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 35, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.home, .navbar-default.home {
   border-color: #F5BA1E;
 }
 
-/* line 39, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 39, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.blog, .navbar-default.blog {
   border-color: #1E81F5;
 }
 
-/* line 43, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 43, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.projects, .navbar-default.projects {
   border-color: #8BB815;
 }
 
-/* line 47, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 47, ../../destan.github.io/_assets/stylesheets/menu.scss */
 i.social-icons {
   display: inline-block;
   font-size: 24px;
 }
 
-/* line 52, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 52, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav.social-icons {
   float: right;
 }
-/* line 55, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 55, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav.social-icons > li {
   border: 0;
 }
 
-/* line 60, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 60, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li:hover {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-/* line 64, ../../dorukdestan.com/_assets/stylesheets/menu.scss */
+/* line 64, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav.social-icons > li > a, .navbar .nav.social-icons > li > a:hover, .navbar .nav.social-icons > li > a:visited, .navbar .nav.social-icons > li > a:active {
   padding: 15px 10px 15px 10px;
 }

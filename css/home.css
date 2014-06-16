@@ -1,4 +1,4 @@
-/* line 1, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+/* line 1, ../../destan.github.io/_assets/stylesheets/home.scss */
 h2 {
   font-size: 2rem;
   border-bottom: 1px solid #aaa;
@@ -6,7 +6,7 @@ h2 {
   color: #333;
   margin-bottom: 1rem;
 }
-/* line 8, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+/* line 8, ../../destan.github.io/_assets/stylesheets/home.scss */
 h2 .slogan {
   font-size: 0.5em;
   border-left: 1px solid;
@@ -17,51 +17,51 @@ h2 .slogan {
   Timeline
   ========
 */
-/* line 19, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+/* line 19, ../../destan.github.io/_assets/stylesheets/home.scss */
 #timeline > div {
   overflow: hidden;
   white-space: nowrap;
 }
 
 /*let bootstrap tooltips wrap properly*/
-/* line 25, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+/* line 25, ../../destan.github.io/_assets/stylesheets/home.scss */
 #timeline > div .tooltip {
   white-space: normal;
 }
 
-/* line 29, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+/* line 29, ../../destan.github.io/_assets/stylesheets/home.scss */
 .timeline-date {
   text-align: right;
   min-width: 6ex;
   display: inline-block;
 }
 
-/* line 35, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+/* line 35, ../../destan.github.io/_assets/stylesheets/home.scss */
 .timeline-desc, .timeline-date {
   cursor: pointer;
 }
 
-/* line 39, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+/* line 39, ../../destan.github.io/_assets/stylesheets/home.scss */
 .timeline-desc:before {
   content: " ";
 }
 
-/* line 43, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+/* line 43, ../../destan.github.io/_assets/stylesheets/home.scss */
 .corporate {
   color: #1E81F5;
 }
 
-/* line 47, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+/* line 47, ../../destan.github.io/_assets/stylesheets/home.scss */
 .life {
   /*color: #F5BA1E;*/
 }
 
-/* line 51, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+/* line 51, ../../destan.github.io/_assets/stylesheets/home.scss */
 .love {
   color: firebrick;
 }
 
-/* line 55, ../../dorukdestan.com/_assets/stylesheets/home.scss */
+/* line 55, ../../destan.github.io/_assets/stylesheets/home.scss */
 .tooltip.left {
   margin-left: -10px !important;
 }
