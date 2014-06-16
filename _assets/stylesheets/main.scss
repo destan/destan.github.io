@@ -95,6 +95,7 @@ footer {
   border-top: 1px solid #eeeeee;
   line-height: $footer-height - 1; /* minus 1 to prevent that unnecessary vertical scroll */
   color: gray;
+  position: relative;
 
   #buildVersion{
     position: absolute;
