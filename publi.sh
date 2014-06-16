@@ -1,6 +1,7 @@
 git checkout jekyll
 jekyll build
+cp .gitignore ../static/
 git checkout master
 cp -r ../static/* ./
-rm .sass-cache/
-rm _site/
+rm -rf .sass-cache/
+rm -rf _site/
