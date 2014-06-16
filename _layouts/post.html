@@ -1,0 +1,65 @@
+---
+layout: default
+post: true
+in_blog: true
+menu_class: blog
+styles:
+  - post
+---
+
+{% if page.draft != true %}
+
+  <main class="container">
+    
+    <article itemscope itemtype="http://schema.org/Article">
+      <h1 itemprop="name">{{ page.title }}</h1>
+      <time itemprop="datePublished">{{ page.date | date_to_string }}</time>
+      {% if page.subtitle != nil %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
+
+      <section itemprop="articleBody">
+        {{ content }}
+      </section>
+
+      <section itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <!-- web font is from http://www.aringtypeface.com/southern-aire/ by Måns Grebäck -->
+        <div class="autograph" itemprop="name">Destan Sarpkaya</div>
+      </section>
+    </article>
+
+    <section class="well">
+      <span class="tweet-btn">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="dorukdestan" data-count="none" data-dnt="true">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </span>
+
+      {% if page.tags.size > 0 %}
+      <span>
+        | Tags: {{ page.tags | array_to_sentence_string }}
+      </span>
+      {% endif %}
+
+      {% if page.categories.size > 0 %}
+      <span>
+        | <a href="{{site.url}}/blog/categories/">Categories</a>: 
+        {% for category in page.categories %}
+          <a href="{{site.url}}/blog/categories/{{category}}">{{category}}</a>
+        {% endfor %}
+      </span>
+      {% endif %}
+    </section>
+
+    <section>
+      {% include comments.html %}
+    </section>
+
+  </main>
+
+{% else %}
+  {% include base/404.html %}
+
+  <!-- If  javascript is enabled go to a really non-existing page to give 404 response code instead of 200 -->
+  <!-- It is assumed that there is no "page-not-found" path in the site and it really gives 404 -->
+  <script type="text/javascript">
+    window.location.href = '/page-not-found';
+  </script>
+{% endif %}

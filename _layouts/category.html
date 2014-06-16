@@ -1,0 +1,21 @@
+---
+layout: default
+title: Category
+in_blog: true
+---
+
+{% assign current_category = page.url | replace: '/index.html', '' | split:'/' | last %}
+
+<main class="container">
+  <h1>Category: {{current_category}}</h1>
+
+  {% for post in site.categories[current_category] %}
+    {% unless post.draft %}
+      <div class="post-sum well">
+        <strong>{{ post.title }}</strong>
+        <code class="pull-right">{{ post.date | date_to_string }}</code>
+        <div>{{ post.excerpt }} <a href="{{ post.url }}">Continue reading »</a></div>
+      </div>
+    {% endunless %}
+  {% endfor %}
+</main>

@@ -1,0 +1,73 @@
+<!--
+
+To put a page or post into the menu, just add `in_menu` variable to front matter with an integer value which decides the order of the page in the menu. The lower the number the upper the item rendered in the menu.
+
+Sub menu
+========
+
+This menu supports 1 level submenus. To enable submenu for a page use front matter like follows:
+
+in_menu: 2
+children:
+  - 
+    url: "submenu1"
+    title: "Sub menu 1"
+  - 
+    url: "submenu2"
+    title: "Sub menu 2"
+
+* Note that the page having the submenu should have in_menu property.
+* Note that the url is formed like this {{site.url}}/{{child.url}}
+  - If {{site.url}} is empty the it ends up with /{{child.url}}
+
+
+Attention: This menu works with either with pages or posts but NOT with both. By default, menu is for pages. You can copy this menu partial to make a menu for posts. Just change `site.pages` to `site.posts`
+
+Inspired from: http://stackoverflow.com/a/16625534/878361
+-->
+
+<nav class="navbar navbar-default {{page.menu_class}}" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+      {% assign sorted_pages = site.pages | sort:"title" | sort:"in_menu" %}
+
+      {% for node in sorted_pages %}
+
+        {% assign is_a_page = false %} {%  if node.url contains '/page' %} {% assign is_a_page = true %} {% endif%}
+
+        {% if node.in_menu != nil and is_a_page == false %}
+          <li class="{{node.menu_class}} {% if page.url == node.url or (node.url contains '/blog/' and page.in_blog) %}active{% endif %}"><a href="{{node.url | remove: 'index.html'}}">{{node.title}}</a></li>
+          {% if node.children != nil %}
+            <ul class="dropdown-menu">
+            {% for child in node.children %}
+              <li class="{{child.menu_class}}"><a href="{{site.url}}/{{child.url | remove: 'index.html'}}">{{child.title}}</a></li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+
+      <ul class="nav navbar-nav social-icons">
+        <li><a href="https://twitter.com/dorukdestan" rel="nofollow" target="_blank"><i class="social-icons icon-twitter"></i></a></li>
+        <li><a href="https://github.com/destan" rel="nofollow" target="_blank"><i class="social-icons icon-github"></i></a></li>
+        <li><a href="http://www.linkedin.com/in/dorukdestan" rel="nofollow" target="_blank"><i class="social-icons icon-linkedin"></i></a></li>
+        <li><a href="https://plus.google.com/u/0/107372055220510088187" rel="nofollow" target="_blank"><i class="social-icons icon-gplus"></i></a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

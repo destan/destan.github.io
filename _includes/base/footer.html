@@ -1,0 +1,12 @@
+</div><!-- Opens in header.html #footerPusher -->
+
+<footer class="container">
+  © Doruk Destan Sarpkaya 2014
+</footer>
+
+{{ 'application' | javascript }}
+
+<!-- Include page specific scripts if any -->
+{% for script in page.scripts %}
+  {{ script | javascript }}
+{% endfor %}

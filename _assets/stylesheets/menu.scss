@@ -1,0 +1,66 @@
+ nav.navbar {
+    border-radius: 0;
+  }
+
+  .navbar .active {
+    background-color: #555;
+  }
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+     color: white;
+     background-color: #555;
+  }
+
+  .navbar-default {
+    background-color: #aaa;
+    border: 0;
+    border-left: 10px solid #888;
+
+    .navbar-nav>li>a, .navbar-nav>li>a:hover, .navbar-nav>li>a:visited, .navbar-nav>li>a:active {
+      padding: 15px 15px 15px;
+      color: #ffffff;
+      text-decoration: none;
+      text-shadow: 0 1px 0 #080808;
+    }
+
+    .navbar-collapse{
+      padding-left: 0;
+    }
+
+  }
+
+  .navbar .nav > li{
+    border-bottom: 3px solid #888;
+  }
+
+  .navbar .nav > li.home, .navbar-default.home{
+    border-color: #F5BA1E;
+  }
+
+  .navbar .nav > li.blog, .navbar-default.blog{
+    border-color: #1E81F5;
+  }
+
+  .navbar .nav > li.projects, .navbar-default.projects{
+    border-color: #8BB815;
+  }
+
+i.social-icons{
+  display: inline-block;
+  font-size: 24px;
+}
+
+.navbar .nav.social-icons{
+  float: right;
+  
+  > li {
+    border: 0;
+  }
+}
+
+.navbar .nav > li:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.navbar .nav.social-icons>li>a, .navbar .nav.social-icons>li>a:hover, .navbar .nav.social-icons>li>a:visited, .navbar .nav.social-icons>li>a:active {
+  padding: 15px 10px 15px 10px;
+}

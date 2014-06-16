@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://dorukdestan.com/sitemap.xml
