@@ -95,6 +95,15 @@ footer {
   border-top: 1px solid #eeeeee;
   line-height: $footer-height - 1; /* minus 1 to prevent that unnecessary vertical scroll */
   color: gray;
+
+  #buildVersion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fafafa;
+    z-index: -1;
+  }
+
 }
 
 .well{
