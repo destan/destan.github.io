@@ -1,0 +1,109 @@
+@import 'compass';
+@import 'variables';
+
+html, body {
+  height: 100%;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+}
+
+a{
+  @include link-colors($link-color);
+}
+
+a:hover{
+  color: $link-color-hover;
+}
+
+blockquote{
+  font-size: 1rem;
+  background-color: #fafafa;
+}
+
+.container{
+  max-width: 1000px;
+}
+
+h1 {
+  font-size: 26px;
+  display: inline-block;
+}
+
+h2.subtitle{
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 0;
+  color: #333;
+}
+
+
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+h3{
+  font-size: 16px;
+  margin: 0;
+}
+
+h4{
+  font-size: 14px;
+  margin: 0;
+}
+
+.well{
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+code {
+  padding: 2px 4px;
+  color: #d14;
+  white-space: nowrap;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-radius: 0;
+  font-size: 12px;
+}
+
+.tooltip-inner{
+  border-radius: 0;
+}
+
+.icon-at:before{
+  margin: 0;
+  color: #666;
+}
+
+pre code {
+  padding: 0;
+  color: inherit;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border: 0;
+  color: #555;
+}
+
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
