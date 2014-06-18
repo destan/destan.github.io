@@ -8,3 +8,6 @@ cp -r ../static/* ./
 rm -rf .sass-cache/
 rm -rf _site/
 rm publi.sh
+git add . --all
+git commit -am 'update'
+git push
