@@ -75,110 +75,48 @@ i.social-icons {
 
 /* line 64, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav.social-icons > li > a, .navbar .nav.social-icons > li > a:hover, .navbar .nav.social-icons > li > a:visited, .navbar .nav.social-icons > li > a:active {
-  padding: 15px 10px 15px 10px;
+  padding: 14px 10px 14px 10px;
 }
 
-/* line 7, ../../destan.github.io/_assets/stylesheets/main.scss */
-html, body {
-  height: 100%;
-  font-family: "Open Sans", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: #555555;
-}
-
-/* line 15, ../../destan.github.io/_assets/stylesheets/main.scss */
-a {
-  color: darkred;
-}
-
-/* line 19, ../../destan.github.io/_assets/stylesheets/main.scss */
-a:hover {
-  color: dimgrey;
-}
-
-/* line 23, ../../destan.github.io/_assets/stylesheets/main.scss */
-blockquote {
-  font-size: 1rem;
-  background-color: #fafafa;
-}
-
-/* line 28, ../../destan.github.io/_assets/stylesheets/main.scss */
-.container {
-  max-width: 1000px;
-}
-
-/* line 32, ../../destan.github.io/_assets/stylesheets/main.scss */
-h1 {
-  font-size: 26px;
-  display: inline-block;
-}
-
-/* line 37, ../../destan.github.io/_assets/stylesheets/main.scss */
-h2.subtitle {
-  font-size: 16px;
-  font-style: italic;
-  margin-top: 0;
-  color: #333;
-}
-
-/* line 44, ../../destan.github.io/_assets/stylesheets/main.scss */
-h2 {
-  font-size: 20px;
-  margin-top: 0;
-}
-
-/* line 49, ../../destan.github.io/_assets/stylesheets/main.scss */
-h3 {
-  font-size: 16px;
-  margin: 0;
-}
-
-/* line 54, ../../destan.github.io/_assets/stylesheets/main.scss */
-h4 {
-  font-size: 14px;
-  margin: 0;
-}
-
-/* line 60, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 8, ../../destan.github.io/_assets/stylesheets/main.scss */
 header #siteTitle {
   font-size: 30px;
   margin-bottom: 10px;
   margin-top: 10px;
   line-height: 40px;
 }
-/* line 66, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 14, ../../destan.github.io/_assets/stylesheets/main.scss */
 header #siteTitle > a, header #siteTitle > a:hover, header #siteTitle > a:visited, header #siteTitle > a:active {
   color: #666;
   text-decoration: none;
 }
-/* line 71, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 19, ../../destan.github.io/_assets/stylesheets/main.scss */
 header #siteTitle .slogan {
   font-size: 0.5em;
   border-left: 1px solid;
   padding-left: 5px;
 }
 
-/* line 79, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 27, ../../destan.github.io/_assets/stylesheets/main.scss */
 #footerPusher {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -50px;
 }
 
-/* line 84, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 32, ../../destan.github.io/_assets/stylesheets/main.scss */
 #footerPusher:after {
   content: "";
   display: block;
 }
 
-/* line 88, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 36, ../../destan.github.io/_assets/stylesheets/main.scss */
 footer, #footerPusher:after {
   /* .push must be the same height as footer */
   height: 50px;
 }
 
-/* line 93, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 41, ../../destan.github.io/_assets/stylesheets/main.scss */
 footer {
   text-align: center;
   border-top: 1px solid #eeeeee;
@@ -187,70 +125,11 @@ footer {
   color: gray;
   position: relative;
 }
-/* line 100, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 48, ../../destan.github.io/_assets/stylesheets/main.scss */
 footer #buildVersion {
   position: absolute;
   top: 0;
   left: 0;
   color: #fafafa;
   z-index: -1;
-}
-
-/* line 110, ../../destan.github.io/_assets/stylesheets/main.scss */
-.well {
-  border: 0;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-/* line 116, ../../destan.github.io/_assets/stylesheets/main.scss */
-code {
-  padding: 2px 4px;
-  color: #d14;
-  white-space: nowrap;
-  background-color: #f7f7f9;
-  border: 1px solid #e1e1e8;
-  border-radius: 0;
-  font-size: 12px;
-}
-
-/* line 126, ../../destan.github.io/_assets/stylesheets/main.scss */
-.tooltip-inner {
-  border-radius: 0;
-}
-
-/* line 130, ../../destan.github.io/_assets/stylesheets/main.scss */
-.icon-at:before {
-  margin: 0;
-  color: #666;
-}
-
-/* line 135, ../../destan.github.io/_assets/stylesheets/main.scss */
-pre code {
-  padding: 0;
-  color: inherit;
-  white-space: pre;
-  white-space: pre-wrap;
-  background-color: transparent;
-  border: 0;
-  color: #555;
-}
-
-/* line 145, ../../destan.github.io/_assets/stylesheets/main.scss */
-pre {
-  display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
-  font-size: 13px;
-  line-height: 20px;
-  word-break: break-all;
-  word-wrap: break-word;
-  white-space: pre;
-  white-space: pre-wrap;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
 }

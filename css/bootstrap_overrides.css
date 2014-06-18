@@ -1,0 +1,120 @@
+/* line 4, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+html, body {
+  height: 100%;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+}
+
+/* line 12, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+a {
+  color: darkred;
+}
+
+/* line 16, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+a:hover {
+  color: dimgrey;
+}
+
+/* line 20, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+blockquote {
+  font-size: 1rem;
+  background-color: #fafafa;
+}
+
+/* line 25, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+.container {
+  max-width: 1000px;
+}
+
+/* line 29, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+h1 {
+  font-size: 26px;
+  display: inline-block;
+}
+
+/* line 34, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+h2.subtitle {
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 0;
+  color: #333;
+}
+
+/* line 43, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+/* line 48, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* line 53, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+h4 {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* line 58, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+.well {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* line 64, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+code {
+  padding: 2px 4px;
+  color: #d14;
+  white-space: nowrap;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-radius: 0;
+  font-size: 12px;
+}
+
+/* line 74, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+.tooltip-inner {
+  border-radius: 0;
+}
+
+/* line 78, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+.icon-at:before {
+  margin: 0;
+  color: #666;
+}
+
+/* line 83, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+pre code {
+  padding: 0;
+  color: inherit;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border: 0;
+  color: #555;
+}
+
+/* line 93, ../../destan.github.io/_assets/stylesheets/bootstrap_overrides.scss */
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
