@@ -45,6 +45,11 @@ footer {
   color: gray;
   position: relative;
 
+  a, a:visited, a:active{
+    color: gray;
+    text-decoration: none;
+  }
+
   #buildVersion{
     position: absolute;
     top: 0;
@@ -53,4 +58,12 @@ footer {
     z-index: -1;
   }
 
+  >div{
+    display: inline-block;
+  }
+
+  #poweredBy{
+    float: right;
+    font-size: 0.7rem;
+  }
 }
