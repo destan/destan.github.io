@@ -126,10 +126,24 @@ footer {
   position: relative;
 }
 /* line 48, ../../destan.github.io/_assets/stylesheets/main.scss */
+footer a, footer a:visited, footer a:active {
+  color: gray;
+  text-decoration: none;
+}
+/* line 53, ../../destan.github.io/_assets/stylesheets/main.scss */
 footer #buildVersion {
   position: absolute;
   top: 0;
   left: 0;
   color: #fafafa;
   z-index: -1;
+}
+/* line 61, ../../destan.github.io/_assets/stylesheets/main.scss */
+footer > div {
+  display: inline-block;
+}
+/* line 65, ../../destan.github.io/_assets/stylesheets/main.scss */
+footer #poweredBy {
+  float: right;
+  font-size: 0.7rem;
 }
