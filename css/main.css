@@ -96,27 +96,41 @@ header #siteTitle .slogan {
   border-left: 1px solid;
   padding-left: 5px;
 }
+/* line 26, ../../destan.github.io/_assets/stylesheets/main.scss */
+header #quoteContainer {
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-top: -10px;
+}
+/* line 31, ../../destan.github.io/_assets/stylesheets/main.scss */
+header #quoteContainer section > div {
+  display: inline-block;
+}
+/* line 35, ../../destan.github.io/_assets/stylesheets/main.scss */
+header #quoteContainer .kg-by {
+  margin-left: 15px;
+}
 
-/* line 27, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 41, ../../destan.github.io/_assets/stylesheets/main.scss */
 #footerPusher {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -50px;
 }
 
-/* line 32, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 46, ../../destan.github.io/_assets/stylesheets/main.scss */
 #footerPusher:after {
   content: "";
   display: block;
 }
 
-/* line 36, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 50, ../../destan.github.io/_assets/stylesheets/main.scss */
 footer, #footerPusher:after {
   /* .push must be the same height as footer */
   height: 50px;
 }
 
-/* line 41, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 55, ../../destan.github.io/_assets/stylesheets/main.scss */
 footer {
   text-align: center;
   border-top: 1px solid #eeeeee;
@@ -125,12 +139,12 @@ footer {
   color: gray;
   position: relative;
 }
-/* line 48, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 62, ../../destan.github.io/_assets/stylesheets/main.scss */
 footer a, footer a:visited, footer a:active {
   color: gray;
   text-decoration: none;
 }
-/* line 53, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 67, ../../destan.github.io/_assets/stylesheets/main.scss */
 footer #buildVersion {
   position: absolute;
   top: 0;
@@ -138,11 +152,11 @@ footer #buildVersion {
   color: #fafafa;
   z-index: -1;
 }
-/* line 61, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 75, ../../destan.github.io/_assets/stylesheets/main.scss */
 footer > div {
   display: inline-block;
 }
-/* line 65, ../../destan.github.io/_assets/stylesheets/main.scss */
+/* line 79, ../../destan.github.io/_assets/stylesheets/main.scss */
 footer #poweredBy {
   float: right;
   font-size: 0.7rem;
