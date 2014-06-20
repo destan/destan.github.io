@@ -4,6 +4,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext);
 
+#text404{
+  text-align: center;
+}
+
 header{
   #siteTitle {
     font-size: 30px;
@@ -27,6 +31,7 @@ header{
     font-style: italic;
     font-size: 0.9rem;
     margin-top: -10px;
+    margin-bottom: 10px;
 
     section > div{
       display: inline-block;
@@ -72,12 +77,10 @@ footer {
     z-index: -1;
   }
 
-  >div{
-    display: inline-block;
-  }
-
   #poweredBy{
-    float: right;
+    position: absolute;
     font-size: 0.7rem;
+    top: 0;
+    right: 0;
   }
 }

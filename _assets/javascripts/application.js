@@ -19,6 +19,10 @@ $(function() {
       text: "The amount of energy necessary to refute bullshit is an order of magnitude bigger than to produce it",
       by: "Alberto Brandolini",
       url: "https://twitter.com/theagilepirate/status/471655978468122625/"
+    },
+    {
+      text: "When kids look up to great scientists the way they do to great musicians and actors, civilization will jump to the next level",
+      by: "Brian Greene"
     }
   ];
 

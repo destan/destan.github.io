@@ -1,14 +1,9 @@
 ---
-layout: default
+layout: markdown
 ---
+
 Notes
 =====
-
-> "The amount of energy to refute bullshit is an order of magnitude bigger than to produce it"
->
-> > by @ziobrando
-
----
 
 …
 
