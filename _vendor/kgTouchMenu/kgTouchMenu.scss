@@ -156,8 +156,9 @@
 
   li{
     text-align: center;
-    font-size: 60px;
+    font-size: 2rem;
     cursor: pointer;
+    float: left;
 
     a, a:visited, a:hover, a:active{
       color: white;
@@ -169,46 +170,6 @@
   li.disabled{
     background-color: #ccc !important;
     color: white !important;
-  }
-
-  li:nth-child(1){
-    background-color: #F5BA1E;
-    color: white;
-  }
-
-  li:nth-child(2){
-    background-color: #1E81F5;
-    color: white;
-  }
-
-  li:nth-child(3){
-    background-color: #8BB815;
-    color: white;
-  }
-
-  li:nth-child(4){
-    background-color: #dd4b39;
-    color: white;
-  }
-
-  li:nth-child(5){
-    background-color: #333333;
-    color: white;
-  }
-
-  li:nth-child(6){
-    background-color: #0976b4;
-    color: white;
-  }
-
-  li:nth-child(7){
-    background-color: #55acee;
-    color: white;
-  }
-
-  li:nth-child(8){
-    background-color: #F5BA1E;
-    color: white;
   }
 
 }
