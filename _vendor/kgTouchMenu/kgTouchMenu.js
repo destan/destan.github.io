@@ -120,11 +120,14 @@ function kgMenu(selectorOrElement) {
     
     removeClass(menuElement, 'kg-hidden');
     addClass(menuElement, 'kg-shown');
+
+    addClass(document.body, 'kg-no-scroll');
   }
 
   function closeMenu(){
     removeClass(menuElement, 'kg-shown');
     addClass(menuElement, 'kg-hidden');
+    removeClass(document.body, 'kg-no-scroll');
 
     // display property will be changed in animationend callback
   }
