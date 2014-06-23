@@ -1,5 +1,38 @@
 @import 'compass';
 
+/*http://joshbroton.com/quick-fix-sass-mixins-for-css-keyframe-animations/*/
+@mixin animation($animate...) {
+  $max: length($animate);
+  $animations: '';
+
+  @for $i from 1 through $max {
+      $animations: #{$animations + nth($animate, $i)};
+
+      @if $i < $max {
+          $animations: #{$animations + ", "};
+      }
+  }
+  -webkit-animation: $animations;
+  -moz-animation:    $animations;
+  -o-animation:      $animations;
+  animation:         $animations;
+}
+
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+      @content;
+  }
+  @-moz-keyframes #{$animationName} {
+      @content;
+  }
+  @-o-keyframes #{$animationName} {
+      @content;
+  }
+  @keyframes #{$animationName} {
+      @content;
+  }
+}
+
 .kg-no-scroll{
   overflow: hidden !important;
 }
@@ -18,7 +51,7 @@
   font-size:0;
   box-sizing: border-box;
 
-  z-index: 2147483647;
+  z-index: 2147483647; /*max integer*/
 
   .kg-close{
     width: 100%;
@@ -31,11 +64,7 @@
     font-size: 20px;
     line-height: 20px;
 
-    -moz-transform: scale(1.5) translate(0, 300px);
-    -webkit-transform: scale(1.5) translate(0, 300px);
-    -o-transform: scale(1.5) translate(0, 300px);
-    -ms-transform: scale(1.5) translate(0, 300px);
-    transform: scale(1.5) translate(0, 300px);
+    @include transform(scale(1.5) translate(0, 300px));
   }
 }
 
@@ -64,94 +93,61 @@
 .kg-touch-menu.kg-shown{
   .kg-close,
   ul li{
-    -webkit-animation: flyin .4s ease both;
+    @include animation(flyin .4s ease both);
   }
 }
 
 .kg-touch-menu.kg-hidden{
   .kg-close,
   ul li{
-    -webkit-animation: flyout .4s ease both;
+    @include animation(flyout .4s ease both);
   }
 }
 
 .top.left{
-  -moz-transform: scale(1.5) translate(-300px, -400px);
-  -webkit-transform: scale(1.5) translate(-300px, -400px);
-  -o-transform: scale(1.5) translate(-300px, -400px);
-  -ms-transform: scale(1.5) translate(-300px, -400px);
-  transform: scale(1.5) translate(-300px, -400px);
+  @include transform(scale(1.5) translate(-300px, -400px));
 }
 
 .upper.left{
-  -moz-transform: scale(1.5) translate(-300px, -100px);
-  -webkit-transform: scale(1.5) translate(-300px, -100px);
-  -o-transform: scale(1.5) translate(-300px, -100px);
-  -ms-transform: scale(1.5) translate(-300px, -100px);
-  transform: scale(1.5) translate(-300px, -100px);
+  @include transform(scale(1.5) translate(-300px, -100px));
 }
 
 .left{
-  -moz-transform: scale(1.5) translate(-300px, 100px);
-  -webkit-transform: scale(1.5) translate(-300px, 100px);
-  -o-transform: scale(1.5) translate(-300px, 100px);
-  -ms-transform: scale(1.5) translate(-300px, 100px);
-  transform: scale(1.5) translate(-300px, 100px);
+  @include transform(scale(1.5) translate(-300px, 100px));
 }
 
 .bottom.left{
-  -moz-transform: scale(1.5) translate(-300px, 400px);
-  -webkit-transform: scale(1.5) translate(-300px, 400px);
-  -o-transform: scale(1.5) translate(-300px, 400px);
-  -ms-transform: scale(1.5) translate(-300px, 400px);
-  transform: scale(1.5) translate(-300px, 400px);
+  @include transform(scale(1.5) translate(-300px, 400px));
 }
 
 .top.right{
-  -moz-transform: scale(1.5) translate(300px, -400px);
-  -webkit-transform: scale(1.5) translate(300px, -400px);
-  -o-transform: scale(1.5) translate(300px, -400px);
-  -ms-transform: scale(1.5) translate(300px, -400px);
-  transform: scale(1.5) translate(300px, -400px);
+  @include transform(scale(1.5) translate(300px, -400px));
 }
 
 .upper.right{
-  -moz-transform: scale(1.5) translate(300px, -100px);
-  -webkit-transform: scale(1.5) translate(300px, -100px);
-  -o-transform: scale(1.5) translate(300px, -100px);
-  -ms-transform: scale(1.5) translate(300px, -100px);
-  transform: scale(1.5) translate(300px, -100px);
+  @include transform(scale(1.5) translate(300px, -100px));
 }
 
 .right{
-  -moz-transform: scale(1.5) translate(300px, 100px);
-  -webkit-transform: scale(1.5) translate(300px, 100px);
-  -o-transform: scale(1.5) translate(300px, 100px);
-  -ms-transform: scale(1.5) translate(300px, 100px);
-  transform: scale(1.5) translate(300px, 100px);
+  @include transform(scale(1.5) translate(300px, 100px));
 }
 
 .bottom.right{
-  -moz-transform: scale(1.5) translate(300px, 400px);
-  -webkit-transform: scale(1.5) translate(300px, 400px);
-  -o-transform: scale(1.5) translate(300px, 400px);
-  -ms-transform: scale(1.5) translate(300px, 400px);
-  transform: scale(1.5) translate(300px, 400px);
+  @include transform(scale(1.5) translate(300px, 400px));
 }
 
-@-webkit-keyframes flyin {
-
+@include keyframes(flyin) {
   to {
     @include filter(blur(0));
-    -webkit-transform: scale(1);
+    @include transform(scale(1));
     opacity: 1;
   }
 }
 
-@-webkit-keyframes flyout {
+@include keyframes(flyout) {
   from {
     @include filter(blur(0));
-    -webkit-transform: scale(1);
+    @include transform(scale(1));
     opacity: 1;
   }
 }
