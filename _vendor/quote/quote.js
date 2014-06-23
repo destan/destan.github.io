@@ -199,7 +199,6 @@ var Quote = (function QuoteClassInitialization() {
 
     if(containerElement instanceof Element){
       containerElement.innerHTML += generateHTMLForQuote(getQuote(this.options.interval));
-      console.log(this.options.interval);
     }
     else{
       console.error('Quote Library: A DOM element should be provided, instead got:', selector);

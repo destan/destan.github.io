@@ -32,4 +32,10 @@ $(function() {
   });
   quoteOfTheDay.renderInto('#quoteContainer');
 
+  // Touch menu
+  var touchMenuHandle = kgMenu($('.example-menu')[0])
+  $('.navbar-toggle').click(function() {
+    touchMenuHandle.openMenu();
+  });
+
 });
