@@ -66,6 +66,34 @@
 
     @include transform(scale(1.5) translate(0, 300px));
   }
+
+  ul.kg-child{
+    display: none;
+    opacity: 0;
+    @include animation(appear .4s ease both);
+    
+    li{
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+      font-size: 1.5rem;
+      background-color: white;
+      
+      a, a:visited, a:hover, a:active{
+        font-size: 1.5rem;
+        color: #555;
+      }
+    }
+
+
+    li:last-child{
+      border-bottom: 0;
+    }
+  }
+
+  ul.kg-child.kg-shown{
+    display: block;
+  }
 }
 
 .kg-touch-menu ul{
@@ -73,12 +101,29 @@
   padding: 0;
   margin: 0;
   height: 100%;
+
+  li{
+
+    a{
+      width: 100%;
+      display: inline-block;
+    }
+
+    .kg-link-curtain{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
 }
 
-.kg-touch-menu ul li{
+.kg-touch-menu > ul > li{
   padding: 0;
   margin: 0;
   display: inline-block;
+  position: relative;
   font-size: 1rem;
   box-sizing: border-box;
   opacity: 0;
@@ -88,6 +133,13 @@
   white-space: nowrap;
 
   @include filter(blur(4px));
+}
+
+.kg-touch-menu ul.kg-child{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .kg-touch-menu.kg-shown{
@@ -152,7 +204,13 @@
   }
 }
 
-.kg-touch-menu ul{
+@include keyframes(appear) {
+  to {
+    opacity: 1;
+  }
+}
+
+.kg-touch-menu > ul{
 
   li{
     text-align: center;
