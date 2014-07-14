@@ -1,8 +1,10 @@
 module Jekyll
   class RenderTimeTag < Liquid::Tag
 
+    @@version = `git rev-parse --short HEAD`.strip + '@' + Time.now.to_s
+
     def render(context)
-      `git rev-parse --short HEAD`.strip + '@' + Time.now.to_s
+      @@version
     end
   end
 end
