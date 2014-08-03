@@ -16,7 +16,7 @@ Değersizleştirmek? Bir işi sevmiyor olmak onun değersiz olduğu anlamına ge
 
 Kimse zevklerimiz konusunda böyle bir zorunluluktan bahsetmiyor. Ancak genel anlamda parasal çıkar güderek yaşamak zorundayız. Önerilen ekonomik modellerin neredeyse tümünde insanların yaşamak için çalışması gerektiği öngörülür, kabul edilir.
 
-Olur ya, zevklerinizden para kazanabiliyorsanız o zaman çok daha mutlu olursunuz. Öz deyişte bu koşulu sağlamaya çalışın böylece daha mutlu olursunuz deniliyor.
+Olur ya, zevklerinizden para kazanabiliyorsanız o zaman çok daha mutlu olursunuz. Özdeyişte bu koşulu sağlamaya çalışın böylece daha mutlu olursunuz deniliyor.
 
 Olayı "masum zevklerimizi ticarileştiriyorlar" noktasına getirmek çok zorlama ve çok kötü niyetli bir çıkarım.
 
@@ -68,7 +68,7 @@ Benim sevdiğim bir işi seçmemle dünyadaki hakkını alamayan işçileri nas�
 
 >Meseleyi bu şekilde izole etmenin bir sonucu, SİY yaklaşımının, çalışanlar arasında, sınıf safları içinde yarattığı ayrımdır. Sevilmeye değer işler (yaratıcı, entellektüel, prestijli) ve sevilmeye değer olmayan (rutin, entellektüel olmayan, vasat) işler olmak üzere iş iki ayrı sınıfa ayrılmış olur. Sevilmeye değer işleri icra edenler kanadını daha çok refah, sosyal statü, eğitim, toplumun etnik ön yargılarınca mübah sayılan ve politik açıdan güçlülerin oluşturduğu, az sayıda çalışanı kapsayan grup oluşturmakta.
 
-Yazar yine kendi sorunlu değer yargılarını afişe etmiş. Özdeyişde sevilmeye değer olan ve olmayan işler diye bir ayrım yok ki! Bu tamamen yazarın ve onun gibi düşünenlerin sorunu.
+Yazar yine kendi sorunlu değer yargılarını ifşa etmiş. Özdeyişte sevilmeye değer olan ve olmayan işler diye bir ayrım yok ki! Bu tamamen yazarın ve onun gibi düşünenlerin sorunu.
 
 >Sevilmeyen işleri yapmak zorunda kalanlar için hikaye başka. SİY inancı ile motivasyonsuz, sevmekten başka nedenlerle çalışanlar -yani çalışanların çoğu- yok sayılıyor. Steve Jobs’ın Stanford konuşmasında olduğu gibi, sevilmeyen ancak toplumsal olarak yapılması gereken işler de aklımızdan çıkartılıyor.
 
@@ -82,7 +82,7 @@ Ayrıca "bugünün işçilerinin sırtlamak zorunda kaldığı düşük ücret" 
 
 >İşlerin çoğunu görmezden gelip kalanını da sevilen iş olarak tanımlama belki de ortalıktaki en şık işçi düşmanı ideolojidir. Eğer iş diye bir şey yoksa, işçiler neden bir araya gelip sınıf çıkarlarını talep etsinler ki?
 
-Kimse işçilerin çoğunu görmezden gelmiyor. Bu çıkarım yazarın "sevilebilecek işler sosyal statüsü çok yüksek işlerdir" yanlış varsayımdan kaynaklı.
+Kimse işçilerin çoğunu görmezden gelmiyor. Bu çıkarım yazarın "sevilebilecek işler sosyal statüsü çok yüksek işlerdir" yanlış varsayımından kaynaklı.
 
 \* \* \*
 
