@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'font-icons';
-  src: url('/assets/font/font-icons.eot?89314533');
-  src: url('/assets/font/font-icons.eot?89314533#iefix') format('embedded-opentype'),
-       url('/assets/font/font-icons.woff?89314533') format('woff'),
-       url('/assets/font/font-icons.ttf?89314533') format('truetype'),
-       url('/assets/font/font-icons.svg?89314533#font-icons') format('svg');
+  src: url('/assets/font/font-icons.eot?48158584');
+  src: url('/assets/font/font-icons.eot?48158584#iefix') format('embedded-opentype'),
+       url('/assets/font/font-icons.woff?48158584') format('woff'),
+       url('/assets/font/font-icons.ttf?48158584') format('truetype'),
+       url('/assets/font/font-icons.svg?48158584#font-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'font-icons';
-    src: url('/assets/font/font-icons.svg?89314533#font-icons') format('svg');
+    src: url('../font/font-icons.svg?48158584#font-icons') format('svg');
   }
 }
 */

@@ -33,8 +33,8 @@ $(function() {
   quoteOfTheDay.renderInto('#quoteContainer');
 
   // Touch menu
-  var touchMenuHandle = kgMenu($('.example-menu')[0])
-  $('.navbar-toggle').click(function() {
+  var touchMenuHandle = kgMenu($('#touchMenu')[0]);
+  $('#mobileMenuTrigger').click(function() {
     touchMenuHandle.openMenu();
   });
 

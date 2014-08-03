@@ -1,3 +1,5 @@
+@import 'variables';
+
 .project {
-  border-left: 3px solid #8BB815;
+  border-left: 3px solid $projects-color;
 }

@@ -1,3 +1,5 @@
+@import 'variables';
+
 .kg-touch-menu>ul{
 
   >li{
@@ -11,42 +13,42 @@
   }
 
   >li:nth-child(1){
-    background-color: #F5BA1E;
+    background-color: $home-color;
     color: white;
   }
 
   >li:nth-child(2){
-    background-color: #1E81F5;
+    background-color: $blog-color;
     color: white;
   }
 
   >li:nth-child(3){
-    background-color: #8BB815;
+    background-color: $talks-color;
     color: white;
   }
 
   >li:nth-child(4){
-    background-color: #dd4b39;
+    background-color: $projects-color;
     color: white;
   }
 
   >li:nth-child(5){
-    background-color: #333333;
+    background-color: $googleplus-color;
     color: white;
   }
 
   >li:nth-child(6){
-    background-color: #0976b4;
+    background-color: $github-color;
     color: white;
   }
 
   >li:nth-child(7){
-    background-color: #55acee;
+    background-color: $linkedin-color;
     color: white;
   }
 
   >li:nth-child(8){
-    background-color: #F5BA1E;
+    background-color: $twitter-color;
     color: white;
   }
 
@@ -70,7 +72,7 @@
     }
 
     >li:nth-child(4){
-      border-left: 4px solid #8BB815;
+      border-left: 4px solid $projects-color;
       padding-left: 4px;
     }
 
@@ -79,4 +81,15 @@
       padding-left: 4px;
     }
   }
+}
+
+#mobileMenuTrigger{
+  font-size: 3rem;
+  line-height: 3rem;
+  float: right;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 20px;
 }
