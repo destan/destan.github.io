@@ -1,67 +1,78 @@
-/* line 1, ../../destan.github.io/_assets/stylesheets/home.scss */
+/* line 3, ../../destan.github.io/_assets/stylesheets/home.scss */
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-bottom: 1px solid #aaa;
   line-height: 1.5em;
+  /*this is meant to be `em`*/
   color: #333;
   margin-bottom: 1rem;
 }
-/* line 8, ../../destan.github.io/_assets/stylesheets/home.scss */
-h2 .slogan {
-  font-size: 0.5em;
-  border-left: 1px solid;
-  padding-left: 5px;
+
+/* line 11, ../../destan.github.io/_assets/stylesheets/home.scss */
+ul {
+  padding-left: 20px;
+}
+
+/* line 15, ../../destan.github.io/_assets/stylesheets/home.scss */
+#moreOfMe {
+  display: none;
+}
+
+/* line 19, ../../destan.github.io/_assets/stylesheets/home.scss */
+#me {
+  max-width: 100%;
 }
 
 /*
   Timeline
   ========
 */
-/* line 19, ../../destan.github.io/_assets/stylesheets/home.scss */
+/* line 27, ../../destan.github.io/_assets/stylesheets/home.scss */
 #timeline > div {
   overflow: hidden;
   white-space: nowrap;
 }
 
 /*let bootstrap tooltips wrap properly*/
-/* line 25, ../../destan.github.io/_assets/stylesheets/home.scss */
+/* line 33, ../../destan.github.io/_assets/stylesheets/home.scss */
 #timeline > div .tooltip {
   white-space: normal;
 }
 
-/* line 29, ../../destan.github.io/_assets/stylesheets/home.scss */
+/* line 37, ../../destan.github.io/_assets/stylesheets/home.scss */
 .timeline-date {
   text-align: right;
   min-width: 6ex;
   display: inline-block;
 }
 
-/* line 35, ../../destan.github.io/_assets/stylesheets/home.scss */
+/* line 43, ../../destan.github.io/_assets/stylesheets/home.scss */
 .timeline-desc, .timeline-date {
   cursor: pointer;
 }
 
-/* line 39, ../../destan.github.io/_assets/stylesheets/home.scss */
+/* line 47, ../../destan.github.io/_assets/stylesheets/home.scss */
 .timeline-desc:before {
   content: " ";
 }
 
-/* line 43, ../../destan.github.io/_assets/stylesheets/home.scss */
+/* line 51, ../../destan.github.io/_assets/stylesheets/home.scss */
 .corporate {
   color: #1E81F5;
 }
 
-/* line 47, ../../destan.github.io/_assets/stylesheets/home.scss */
+/* line 55, ../../destan.github.io/_assets/stylesheets/home.scss */
 .life {
   /*color: #F5BA1E;*/
 }
 
-/* line 51, ../../destan.github.io/_assets/stylesheets/home.scss */
+/* line 59, ../../destan.github.io/_assets/stylesheets/home.scss */
 .love {
   color: firebrick;
 }
 
-/* line 55, ../../destan.github.io/_assets/stylesheets/home.scss */
+/* line 63, ../../destan.github.io/_assets/stylesheets/home.scss */
 .tooltip.left {
-  margin-left: -10px !important;
+  margin-left: -37px !important;
+  margin-top: -5px !important;
 }
