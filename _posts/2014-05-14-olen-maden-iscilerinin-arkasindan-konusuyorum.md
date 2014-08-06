@@ -28,7 +28,7 @@ Bu çerçevede Soma'daki facianın asıl sorumlusu devlettir, iktidardır. Peki 
 Masum halk çaresiz!
 -------------------
 
-Eğer bu iktidar ilk kez seçilmiş olsaydı "halk bilemedi, kandırıldı" denilebilirdi belki. Ancak bu iktidar 12 yıldır 3. kez seçildi. Bu dönemde işçi haklarında ve iş güvenliğinde bir gelişme olmadı. Hadi sıradan vatandaş için bu gelişmeleri takip edip anlamak çok zor. Peki ya çok somut örnekler? _Ananı da al git_, Rizeli fındık üreticilerinin isyanları, et ithal edilmesiyle hayvancılık sektörünün yaralanması, Tuzla'da ardı arkası kesilmeyen ölümler, Zonguldak'ta ölen maden işçilerinin ardından "bu işin doğasında var" denmesi... Hepsini geçelim maaşlara _zamcık_tan başka bir şey yapılmadı. Örnekleri artımak mümkün ancak bu kadarının yetip artması gerek.
+Eğer bu iktidar ilk kez seçilmiş olsaydı "halk bilemedi, kandırıldı" denilebilirdi belki. Ancak bu iktidar 12 yıldır 3. kez seçildi. Bu dönemde işçi haklarında ve iş güvenliğinde bir gelişme olmadı. Hadi sıradan vatandaş için bu gelişmeleri takip edip anlamak çok zor. Peki ya çok somut örnekler? _Ananı da al git_, Rizeli fındık üreticilerinin isyanları, et ithal edilmesiyle hayvancılık sektörünün yaralanması, Tuzla'da ardı arkası kesilmeyen ölümler, Zonguldak'ta ölen maden işçilerinin ardından "bu işin doğasında var" denmesi... Hepsini geçelim maaşlara zamcıktan başka bir şey yapılmadı. Örnekleri artımak mümkün ancak bu kadarının yetip artması gerek.
 
 Bu iktidarın işçinin isteklerine yanıt vermesi hayal bile değil.
 
