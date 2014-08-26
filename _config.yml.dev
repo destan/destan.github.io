@@ -1,0 +1,34 @@
+# Site settings
+title: Destan Sarpkaya
+name: Destan Sarpkaya
+slogan: 'of life, production and consumption'
+
+highlighter: pygments
+timezone: Asia/Istanbul
+permalink: /blog/:title
+paginate_path: "blog/page:num"
+paginate: 10
+
+exclude: 
+  - "*.md"
+
+destination: '../static' # If this folder is inside the project then asset pipeline enters infinite loop
+url: "http://ozg.com:4000"
+
+# Build settings
+markdown: kramdown # To make the template Github ready
+assets:
+  baseurl: 'http://ozg.com:4000/assets'
+  js_compressor:  uglifier
+  css_compressor: scss
+  sources:
+  - _assets
+  - _assets/images
+  - _assets/javascripts
+  - _assets/stylesheets
+  - _vendor
+
+gems:
+  - jekyll-compass
+  - jekyll-assets
+  - jekyll-assets/compass
