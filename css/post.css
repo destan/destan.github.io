@@ -7,21 +7,13 @@
 }
 
 /* line 11, ../../destan.github.io/_assets/stylesheets/post.scss */
-time {
-  padding: 2px 4px;
-  color: #d14;
-  white-space: nowrap;
-  background-color: #f7f7f9;
-  border: 1px solid #e1e1e8;
+.meta-box {
+  margin-bottom: 10px;
   font-size: 12px;
   font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;
-  height: 20px;
-  margin-top: 10px;
-  line-height: 19px;
-  float: right;
 }
 
-/* line 27, ../../destan.github.io/_assets/stylesheets/post.scss */
+/* line 17, ../../destan.github.io/_assets/stylesheets/post.scss */
 .autograph {
   font-family: 'handwriting';
   font-size: 3rem;
@@ -30,25 +22,25 @@ time {
   line-height: 3rem;
 }
 
-/* line 35, ../../destan.github.io/_assets/stylesheets/post.scss */
+/* line 25, ../../destan.github.io/_assets/stylesheets/post.scss */
 .tweet-btn {
   float: left;
   margin-right: 5px;
 }
 
-/* line 40, ../../destan.github.io/_assets/stylesheets/post.scss */
+/* line 30, ../../destan.github.io/_assets/stylesheets/post.scss */
 h3 {
   font-size: 1.1rem;
   margin: 15px 0 10px 0;
   font-weight: bold;
 }
 
-/* line 46, ../../destan.github.io/_assets/stylesheets/post.scss */
+/* line 36, ../../destan.github.io/_assets/stylesheets/post.scss */
 .width-50 {
   width: 50%;
 }
 
-/* line 50, ../../destan.github.io/_assets/stylesheets/post.scss */
+/* line 40, ../../destan.github.io/_assets/stylesheets/post.scss */
 .width-100 {
   width: 100%;
 }

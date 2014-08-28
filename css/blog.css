@@ -19,3 +19,9 @@
 .blog-excerpt {
   border-left: 3px solid #1E81F5;
 }
+
+/* line 23, ../../destan.github.io/_assets/stylesheets/blog.scss */
+.meta-box {
+  font-size: 12px;
+  float: right;
+}
