@@ -81,6 +81,10 @@ nav.navbar {
 i.social-icons{
   display: inline-block;
   font-size: 24px;
+
+  &:hover{
+    color: gray;
+  }
 }
 
 .navbar .nav.social-icons{
