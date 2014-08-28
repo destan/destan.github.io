@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Error on mysql2 gem installation</title><meta name="viewport" content="width=device-width"><meta name="description" content=""><link rel="canonical" href="http://dorukdestan.com/blog/error-while-installing-mysql-gem"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?1=1"><link rel="stylesheet" href="http://dorukdestan.com/assets/application-d9c9b06e0030c23209a07ead8a8b4a5e.css"><link rel="stylesheet" href="http://dorukdestan.com/assets/post-2cf746afe37afe26989452c939777de1.css"> <script>var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-29182671-1"]),_gaq.push(["_setDomainName","dorukdestan.com"]),_gaq.push(["_trackPageview"]),function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}()</script></head><body><div id="footerPusher"><header class="container"><div id="siteOwner" itemprop="author" itemscope itemtype="http://schema.org/Person"> <a href="/" itemprop="name">Destan Sarpkaya</a> <span class="slogan">of life, production and consumption</span><meta itemprop="additionalName" content="dorukdestan"/></div><nav class="navbar navbar-default hidden-xs blog" role="navigation"><div class=""><div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=""> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="theMenu"><ul class="nav navbar-nav"><li class="home"> <a href="/">About</a></li><li class="blog active"> <a href="/blog/">Blog</a></li><li class="talks"> <a href="/talks/">Talks</a></li><li class="projects"> <a href="/projects/">Projects</a></li></ul><ul class="nav navbar-nav social-icons"><li><a href="https://twitter.com/dorukdestan" rel="nofollow" target="_blank"><i class="social-icons icon-twitter"></i></a></li><li><a href="https://github.com/destan" rel="nofollow" target="_blank"><i class="social-icons icon-github"></i></a></li><li><a href="http://www.linkedin.com/in/dorukdestan" rel="nofollow" target="_blank"><i class="social-icons icon-linkedin"></i></a></li><li><a href="https://plus.google.com/+DestanSarpkaya" rel="nofollow" target="_blank"><i class="social-icons icon-gplus"></i></a></li></ul></div></div> </nav><div id="mobileMenuTrigger" class="visible-xs"> <i class="icon-menu"></i></div><nav id="touchMenu" class="kg-touch-menu"><ul><li><a href="/">About</a></li><li><a href="/blog/">Blog</a></li><li><a href="/talks/">Talks</a></li><li id="projectsMobileMenu"> <a href="/projects/">Projects</a><ul><li><a href="/projects#cevirgec">Çevirgeç</a></li><li><a href="/projects#search-for-all">Search For All</a></li><li><a href="/projects#search-for-all">Mobile Menu</a></li><li><a href="/projects">All Projects</a></li></ul></li><li><a href="https://plus.google.com/+DestanSarpkaya" rel="nofollow" target="_blank"><i class="icon-gplus"></i></a></li><li><a href="https://github.com/destan" rel="nofollow" target="_blank"><i class="icon-github"></i></a></li><li><a href="http://www.linkedin.com/in/dorukdestan" rel="nofollow" target="_blank"><i class="icon-linkedin"></i></a></li><li><a href="https://twitter.com/dorukdestan" rel="nofollow" target="_blank"><i class="icon-twitter"></i></a></li></ul> <button class="kg-close">↶ <span class="kg-back-text">Back</span></button> </nav><div id="quoteContainer"></div></header><main class="container"> <article itemscope itemtype="http://schema.org/Article"><h1 itemprop="name">Error on mysql2 gem installation</h1><div class="meta-box"> <time itemprop="datePublished" title="Published on"><i class="icon-calendar"></i> 21 Oct 2013</time></div><section itemprop="articleBody"><p>Error on mysql2 gem installation can be fixed via installing a package.</p><div class="highlight"><pre><code class="bash"><span class="nv">$ </span>gem install mysql2 -v <span class="s1">'0.3.13'</span>
+Building native extensions.  This could take a <span class="k">while</span>...
+ERROR:  Error installing mysql2:
+        ERROR: Failed to build gem native extension.
+
+    /home/ubuntu/.rvm/rubies/ruby-2.0.0-p247/bin/ruby extconf.rb
+checking <span class="k">for </span>rb_thread_blocking_region<span class="o">()</span>... yes
+checking <span class="k">for </span>rb_wait_for_single_fd<span class="o">()</span>... yes
+checking <span class="k">for </span>rb_hash_dup<span class="o">()</span>... yes
+checking <span class="k">for </span>rb_intern3<span class="o">()</span>... yes
+checking <span class="k">for </span>mysql_query<span class="o">()</span> in -lmysqlclient... no
+checking <span class="k">for </span>main<span class="o">()</span> in -lm... yes
+checking <span class="k">for </span>mysql_query<span class="o">()</span> in -lmysqlclient... no
+checking <span class="k">for </span>main<span class="o">()</span> in -lz... yes
+checking <span class="k">for </span>mysql_query<span class="o">()</span> in -lmysqlclient... no
+checking <span class="k">for </span>main<span class="o">()</span> in -lsocket... no
+checking <span class="k">for </span>mysql_query<span class="o">()</span> in -lmysqlclient... no
+checking <span class="k">for </span>main<span class="o">()</span> in -lnsl... yes
+checking <span class="k">for </span>mysql_query<span class="o">()</span> in -lmysqlclient... no
+checking <span class="k">for </span>main<span class="o">()</span> in -lmygcc... no
+checking <span class="k">for </span>mysql_query<span class="o">()</span> in -lmysqlclient... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file <span class="k">for </span>more details.  You may
+need configuration options.
+
+Provided configuration options:
+        --with-opt-dir
+        --without-opt-dir
+        --with-opt-include
+        --without-opt-include<span class="o">=</span><span class="k">${</span><span class="nv">opt</span><span class="p">-dir</span><span class="k">}</span>/include
+        --with-opt-lib
+        --without-opt-lib<span class="o">=</span><span class="k">${</span><span class="nv">opt</span><span class="p">-dir</span><span class="k">}</span>/lib
+        --with-make-prog
+        --without-make-prog
+        --srcdir<span class="o">=</span>.
+        --curdir
+        --ruby<span class="o">=</span>/home/ubuntu/.rvm/rubies/ruby-2.0.0-p247/bin/ruby
+        --with-mysql-config
+        --without-mysql-config
+        --with-mysql-dir
+        --without-mysql-dir
+        --with-mysql-include
+        --without-mysql-include<span class="o">=</span><span class="k">${</span><span class="nv">mysql</span><span class="p">-dir</span><span class="k">}</span>/include
+        --with-mysql-lib
+        --without-mysql-lib<span class="o">=</span><span class="k">${</span><span class="nv">mysql</span><span class="p">-dir</span><span class="k">}</span>/
+        --with-mysqlclientlib
+        --without-mysqlclientlib
+        --with-mlib
+        --without-mlib
+        --with-mysqlclientlib
+        --without-mysqlclientlib
+        --with-zlib
+        --without-zlib
+        --with-mysqlclientlib
+        --without-mysqlclientlib
+        --with-socketlib
+        --without-socketlib
+        --with-mysqlclientlib
+        --without-mysqlclientlib
+        --with-nsllib
+        --without-nsllib
+        --with-mysqlclientlib
+        --without-mysqlclientlib
+        --with-mygcclib
+        --without-mygcclib
+        --with-mysqlclientlib
+        --without-mysqlclientlib
+
+
+Gem files will remain installed in /home/ubuntu/.rvm/gems/ruby-2.0.0-p247@myenv/gems/mysql2-0.3.13 <span class="k">for </span>inspection.
+Results logged to /home/ubuntu/.rvm/gems/ruby-2.0.0-p247@myenv/gems/mysql2-0.3.13/ext/mysql2/gem_make.out</code></pre></div><h2 id="solution">Solution</h2><p>Install <code>libmysqlclient-dev</code> package.</p><div class="highlight"><pre><code class="bash"><span class="nv">$ </span>sudo aptitude install libmysqlclient-dev</code></pre></div></section><section itemprop="author" itemscope itemtype="http://schema.org/Person"><div class="autograph" itemprop="name">Destan Sarpkaya</div> </section> </article><section class="well"> <span class="tweet-btn"> <a href="https://twitter.com/share" class="twitter-share-button" data-via="dorukdestan" data-count="none" data-dnt="true">Tweet</a> <script>!function(t,e,r){var n,s=t.getElementsByTagName(e)[0],i=/^http:/.test(t.location)?"http":"https";t.getElementById(r)||(n=t.createElement(e),n.id=r,n.src=i+"://platform.twitter.com/widgets.js",s.parentNode.insertBefore(n,s))}(document,"script","twitter-wjs")</script></span> <span> | Tags: rails, mysql, mysql2, mysql2-gem, gem, installation, and error </span> <span> | <a href="http://dorukdestan.com/blog/categories/">Categories</a>: <a href="http://dorukdestan.com/blog/categories/development">development</a> </span> </section><section><div id="disqus_thread"></div> <script>var disqus_shortname="dorukdestan";!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//"+disqus_shortname+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}()</script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments.</a></noscript> <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> </section></main></div><footer class="container"><div>© <a href="http://plus.google.com/+DestanSarpkaya?rel=author">Doruk Destan Sarpkaya</a> 2014</div><div id="buildVersion">build:f4ed1a9@2014-08-28 03:15:27 +0300</div><div id="poweredBy" class="hidden-xs">Powered by <a href="https://github.com/kodgemisi/jekyll-template" target="_blank" rel="nofollow">Jekyll Template</a></div> </footer><script src="http://dorukdestan.com/assets/application-6bb402cb25ecbf063accee7d702be369.js"></script></body></html>
