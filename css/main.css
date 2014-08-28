@@ -142,22 +142,26 @@ i.social-icons {
   display: inline-block;
   font-size: 24px;
 }
+/* line 85, ../../destan.github.io/_assets/stylesheets/menu.scss */
+i.social-icons:hover {
+  color: gray;
+}
 
-/* line 86, ../../destan.github.io/_assets/stylesheets/menu.scss */
+/* line 90, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav.social-icons {
   float: right;
 }
-/* line 89, ../../destan.github.io/_assets/stylesheets/menu.scss */
+/* line 93, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav.social-icons > li {
   border: 0;
 }
 
-/* line 98, ../../destan.github.io/_assets/stylesheets/menu.scss */
+/* line 102, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav.social-icons > li > a, .navbar .nav.social-icons > li > a:hover, .navbar .nav.social-icons > li > a:visited, .navbar .nav.social-icons > li > a:active {
   padding: 14px 10px 14px 10px;
 }
 
-/* line 102, ../../destan.github.io/_assets/stylesheets/menu.scss */
+/* line 106, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar-toggle {
   margin-top: -50px;
 }
