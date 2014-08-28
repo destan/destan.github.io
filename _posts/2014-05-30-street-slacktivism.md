@@ -8,7 +8,7 @@ tags:
  - street-slacktivism
  - gezi-parki
  - gezi-protests
-draft: false
+duration: 5.5min
 ---
 
 The term street slacktivism sounds like an oxymoron at first but let me explain. First, for the unfamiliars, here is the definition of slacktivism by Oxford Dictionary<sup>[1]</sup>:

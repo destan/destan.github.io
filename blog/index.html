@@ -16,7 +16,12 @@ styles:
   {% unless post.draft %}
     <div class="blog-excerpt well {{post.categories | first}}">
       <strong>{{ post.title }}</strong>
-      <code class="pull-right">{{ post.date | date_to_string }}</code>
+      
+      <div class="meta-box">
+        <time itemprop="datePublished" title="Published on"><i class="icon-calendar"></i> {{ post.date | date_to_string }}</time>
+        {% if post.duration != nil %}<div title="Reading duration" class="duration"><i class="icon-clock"></i> {{ post.duration }}</div>{% endif %}
+      </div>
+
       <div>{{ post.excerpt }} <a href="{{ post.url }}">Continue reading »</a></div>
     </div>
   {% endunless %}
