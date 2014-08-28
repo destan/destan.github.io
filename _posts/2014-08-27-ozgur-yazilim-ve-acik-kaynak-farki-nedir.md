@@ -58,8 +58,6 @@ Açık kaynaklı yazılım tanımı biraz daha uzun, o nedenle buraya koymadım.
 
 ---
 
-<img title="özgür yazılım ve açık kaynak arasındaki fark" style="float: left;width:20%;margin-right:10px;" src="/assets/ozgur-yazilim-ve-acik-kaynak-farki-nedir/fsf-vs-open-source.svg">
-
 ## Özgür Yazılım ve Açık Kaynak Kodlu Yazılım Farkı Nedir?
 
 Aslında iki kavram arasında tanımsal olarak çok küçük farklar vardır. Asıl fark iki kavramın felsefi boyutundadır. Sanırım çoğu kişi, yazıktır, işin felsefi boyutunu umursamıyor. Eğer siz umursuyorsanız Stallman'ın bu konuyu çok net anlatan şahane bir yazısı var. Onun üzerine söyleceyecek başka bir şeyim yok, yazıyı kesinlikle okumanızı öneririm: [Açık kaynağın kaçırdığı nokta ne? - Richard Stallman](http://www.gnu.org/philosophy/open-source-misses-the-point.html)
