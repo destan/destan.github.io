@@ -138,30 +138,51 @@ nav.navbar {
 }
 
 /* line 81, ../../destan.github.io/_assets/stylesheets/menu.scss */
+.navbar .nav > li.tutorials {
+  border-color: #cc33aa;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
+  -moz-transition: text-shadow 0.3s ease-in-out;
+  -o-transition: text-shadow 0.3s ease-in-out;
+  transition: text-shadow 0.3s ease-in-out;
+}
+/* line 55, ../../destan.github.io/_assets/stylesheets/menu.scss */
+.navbar .nav > li.tutorials:hover, .navbar .nav > li.tutorials.active {
+  text-shadow: 5px 2px 5px #cc33aa, -5px -2px 5px #cc33aa;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
+  -moz-transition: text-shadow 0.3s ease-in-out;
+  -o-transition: text-shadow 0.3s ease-in-out;
+  transition: text-shadow 0.3s ease-in-out;
+}
+/* line 59, ../../destan.github.io/_assets/stylesheets/menu.scss */
+.navbar .nav > li.tutorials:hover a, .navbar .nav > li.tutorials.active a {
+  color: #000 !important;
+}
+
+/* line 85, ../../destan.github.io/_assets/stylesheets/menu.scss */
 i.social-icons {
   display: inline-block;
   font-size: 24px;
 }
-/* line 85, ../../destan.github.io/_assets/stylesheets/menu.scss */
+/* line 89, ../../destan.github.io/_assets/stylesheets/menu.scss */
 i.social-icons:hover {
   color: gray;
 }
 
-/* line 90, ../../destan.github.io/_assets/stylesheets/menu.scss */
+/* line 94, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav.social-icons {
   float: right;
 }
-/* line 93, ../../destan.github.io/_assets/stylesheets/menu.scss */
+/* line 97, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav.social-icons > li {
   border: 0;
 }
 
-/* line 102, ../../destan.github.io/_assets/stylesheets/menu.scss */
+/* line 106, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav.social-icons > li > a, .navbar .nav.social-icons > li > a:hover, .navbar .nav.social-icons > li > a:visited, .navbar .nav.social-icons > li > a:active {
   padding: 14px 10px 14px 10px;
 }
 
-/* line 106, ../../destan.github.io/_assets/stylesheets/menu.scss */
+/* line 110, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar-toggle {
   margin-top: -50px;
 }
@@ -260,4 +281,14 @@ footer #poweredBy {
   font-size: 0.7rem;
   top: 0;
   right: 0;
+}
+
+/* line 93, ../../destan.github.io/_assets/stylesheets/main.scss */
+.width-50 {
+  width: 50%;
+}
+
+/* line 97, ../../destan.github.io/_assets/stylesheets/main.scss */
+.width-100 {
+  width: 100%;
 }

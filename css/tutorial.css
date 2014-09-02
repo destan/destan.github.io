@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* line 4, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+.warn {
+  background: #FFFEE4;
+  padding: 10px 10px 10px 30px;
+  border: 1px solid #E0CE00;
+}
+/* line 10, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+.warn:before {
+  content: "⚠";
+  position: absolute;
+  font-size: 2rem;
+  margin-left: -28px;
+  color: #E0CE00;
+}
+
+/* line 19, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+.error {
+  background: #E01B00;
+  padding: 10px 10px 10px 30px;
+  border: 1px solid #7A2700;
+  color: white;
+}
+/* line 26, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+.error:before {
+  content: "❌";
+  position: absolute;
+  font-size: 2rem;
+  margin-left: -28px;
+  color: #8A0000;
+}
