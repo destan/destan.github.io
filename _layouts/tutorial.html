@@ -1,0 +1,112 @@
+---
+layout: default
+in_tutorial: true
+styles:
+  - tutorial
+---
+
+{% if page.draft != true %}
+
+  <main class="container">
+
+    <section id="metabox" class="well">
+
+      <div class="row">
+        <div class="col-xs-6">
+          <div>{% level_indicator %} {% level_indicator text_only%} <a href="#" data-toggle="modal" data-target="#levelDesc">?</a></div>
+          <div><i class="icon-section"></i> <span class="">Bölüm: </span>{{page.section}}</div>
+          <div><i class="icon-clock"></i> <span class="">Okuma süresi: </span>{{page.duration}}</div>
+          <div><i class="icon-cc-by"></i> <span class="">Yazar: </span>{{page.author}}</div>
+        </div>
+
+        <div class="col-xs-6">
+          <div><i class="icon-calendar"></i> <span class="">Oluşturulma: </span>{{page.creation_date}}</div>
+          <div><i class="icon-calendar"><sub style="margin-left: -4px;">2</sub></i> <span class="">Son güncellenme: </span>{{page.update_date}}</div>
+          <div><i class="icon-revision"></i> <span class="">Sürüm: </span>{{page.version}}</div>
+          <div>
+            <i class="icon-cc"></i> Lisans:
+            {% if page.license != nil %}
+              {{ page.license }}
+            {% else %}
+              <a rel="license" title="Creative Commons License Attribution-ShareAlike 4.0 International" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License Attribution-ShareAlike 4.0 International" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+            {% endif %}
+            </div>
+        </div>
+      </div>
+
+      {% if page.version_history != nil %}
+        <br>
+
+        <div>
+          <i class="icon-doc"></i> <span class="">Sürüm notları: </span>{{page.version_history}}
+        </div>
+      {% endif %}
+    </section>
+    
+    <article itemscope itemtype="http://schema.org/Article">
+
+      <h1 itemprop="name">{{ page.title }}</h1>
+      {% if page.subtitle != nil %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
+      
+      <section itemprop="articleBody">
+        {{ content }}
+      </section>
+
+      <br>
+
+      <a href="/tutorials/">« Tutoriallara geri dön</a>
+
+      <br><br>
+
+      <meta datetime="{{page.update_date}}" value="{{page.update_date}}" itemprop="datePublished" />
+      <section itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="{{page.author}}" />
+      </section>
+    </article>
+
+    <section class="well">
+      <span class="tweet-btn">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="dorukdestan" data-count="none" data-dnt="true">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </span>
+
+      {% if page.tags.size > 0 %}
+      <span>
+        | Tags: {{ page.tags | array_to_sentence_string }}
+      </span>
+      {% endif %}
+
+    </section>
+
+    <section>
+      {% include comments.html %}
+    </section>
+
+  </main>
+
+{% else %}
+  {% include base/404.html %}
+
+  <!-- If  javascript is enabled go to a really non-existing page to give 404 response code instead of 200 -->
+  <!-- It is assumed that there is no "page-not-found" path in the site and it really gives 404 -->
+  <script type="text/javascript">
+    window.location.href = '/page-not-found';
+  </script>
+{% endif %}
+
+<div id="levelDesc" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Düzeyler ve Anlamları</h4>
+      </div>
+      <div class="modal-body">
+        {% include tutorialLevels.html %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Kapat</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

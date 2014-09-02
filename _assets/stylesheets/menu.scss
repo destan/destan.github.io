@@ -78,6 +78,10 @@ nav.navbar {
     @include menu-item($projects-color);
 }
 
+.navbar .nav > li.tutorials{
+    @include menu-item($tutorials-color);
+}
+
 i.social-icons{
   display: inline-block;
   font-size: 24px;

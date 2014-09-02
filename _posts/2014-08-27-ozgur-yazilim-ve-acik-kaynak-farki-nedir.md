@@ -76,7 +76,7 @@ Yani açık kaynak lisansları, özgün kodu ekleme yapılmış biçimde doğrud
 
 Eğer kullanıcı değişiklikleri kamudan saklamayı kendi isterse o başka bir durum. Özgür yazılımlarda da açık kaynaklı yazılımlarda da lisans copyleft gerektirmiyorsa zaten kullanıcı isterse değişikliklerini saklayabilir<sup><a href="#referanslar">[4]</a></sup>.
 
-Sonuç olarak açık kaynak lisansları ile özgür yazılım lisanslarının ticari açıdan bir farkı yok. Yani patronları korkutan şey aslında _copyleft_ imiş, o da açık kaynak lisanslarında da olabiliyor imiş.
+Sonuç olarak açık kaynak lisansları ile özgür yazılım lisanslarının ticari açıdan bir farkı yok. Yani patronları korkutan şey aslında özgür yazılım değil _copyleft_ imiş, o da açık kaynak lisanslarında da olabiliyor imiş.
 
 ---
 

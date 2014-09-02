@@ -5,6 +5,7 @@ categories: [yazılım, hayat]
 tags:
   - e-devlet
   - ütopya
+duration: 2.5min
 ---
 
 Ne zaman devlet kurumlarına işimiz düşse oradan oraya damgalı, onaylı kağıt taşıma seferleri bizi bekler. Hem de 21. yüzyılda olduğumuz, E-Devlet sistemine geçtiğimiz, her kurum bilgisayar kullandığı halde. Bir yerden  bir yere her evrak taşıyışımda ister istemez "bu işler daha kolay olabilirdi" diye düşünürüm.

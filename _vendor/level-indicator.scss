@@ -1,0 +1,62 @@
+/*http://liveweave.com/DOFRiZ*/
+
+.level-indicator{
+  width: 20px;
+  height: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.level-indicator div{
+  background: gray;
+  width: 20%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  bottom: 0;
+}
+
+.level-indicator div:nth-child(1){
+  height: 20%;
+  left: 0;
+}
+
+.level-indicator div:nth-child(2){
+  height: 40%;
+  left: 20%;
+}
+
+.level-indicator div:nth-child(3){
+  height: 60%;
+  left: 40%;
+}
+
+.level-indicator div:nth-child(4){
+  height: 80%;
+  left: 60%;
+}
+
+.level-indicator div:nth-child(5){
+  left: 80%;
+}
+
+/* conditional coloring */
+.level-indicator[level="1"] div:nth-child(1){
+  background: #2D8DFE;
+}
+
+.level-indicator[level="2"] div:nth-child(2){
+  background: #7FC042;
+}
+
+.level-indicator[level="3"] div:nth-child(3){
+  background: #FFC000;
+}
+
+.level-indicator[level="4"] div:nth-child(4){
+  background: #E67100;
+}
+
+.level-indicator[level="5"] div:nth-child(5){
+  background: #FE0002;
+}
