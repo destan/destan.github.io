@@ -38,19 +38,20 @@ h3 {
 /* line 36, ../../destan.github.io/_assets/stylesheets/post.scss */
 h4 {
   font-weight: bold;
+  margin: 15px 0 10px 0;
 }
 
-/* line 40, ../../destan.github.io/_assets/stylesheets/post.scss */
+/* line 41, ../../destan.github.io/_assets/stylesheets/post.scss */
 figure {
   border: 1px solid #eee;
 }
-/* line 43, ../../destan.github.io/_assets/stylesheets/post.scss */
+/* line 44, ../../destan.github.io/_assets/stylesheets/post.scss */
 figure figcaption {
   padding: 10px;
   background: #fafafa;
   color: #555;
 }
-/* line 49, ../../destan.github.io/_assets/stylesheets/post.scss */
+/* line 50, ../../destan.github.io/_assets/stylesheets/post.scss */
 figure img {
   max-width: 100%;
 }

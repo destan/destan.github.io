@@ -1,11 +1,26 @@
 @charset "UTF-8";
 /* line 4, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+.hint {
+  background: #F2FFE4;
+  padding: 10px 10px 10px 30px;
+  border: 1px solid #A9CF81;
+}
+/* line 10, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+.hint:before {
+  content: "⚝";
+  position: absolute;
+  font-size: 2rem;
+  margin-left: -28px;
+  color: #336400;
+}
+
+/* line 19, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
 .warn {
   background: #FFFEE4;
   padding: 10px 10px 10px 30px;
   border: 1px solid #E0CE00;
 }
-/* line 10, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+/* line 25, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
 .warn:before {
   content: "⚠";
   position: absolute;
@@ -14,18 +29,46 @@
   color: #E0CE00;
 }
 
-/* line 19, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+/* line 34, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
 .error {
-  background: #E01B00;
+  background: #FFE4F2;
   padding: 10px 10px 10px 30px;
-  border: 1px solid #7A2700;
-  color: white;
+  color: #555;
+  border: 1px solid #D399B7;
 }
-/* line 26, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+/* line 41, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
 .error:before {
   content: "❌";
   position: absolute;
   font-size: 2rem;
   margin-left: -28px;
   color: #8A0000;
+}
+
+/* line 50, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+nav {
+  line-height: 1.7rem;
+}
+/* line 53, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+nav header {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+/* line 58, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+nav ol {
+  counter-reset: item;
+  padding-left: 0;
+}
+/* line 62, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+nav ol ol {
+  padding-left: 20px;
+}
+/* line 66, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+nav ol li {
+  display: block;
+}
+/* line 69, ../../destan.github.io/_assets/stylesheets/tutorial.scss */
+nav ol li:before {
+  content: counters(item,".") " ";
+  counter-increment: item;
 }
