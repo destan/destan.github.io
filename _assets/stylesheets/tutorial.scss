@@ -1,6 +1,21 @@
 //= require level-indicator
 //= require post
 
+.hint{
+
+  background: #F2FFE4;
+  padding: 10px 10px 10px 30px;
+  border: 1px solid #A9CF81;
+
+  &:before{
+    content: "⚝";
+    position: absolute;
+    font-size: 2rem;
+    margin-left: -28px;
+    color: #336400;
+  }
+}
+
 .warn{
 
   background: #FFFEE4;
@@ -18,10 +33,10 @@
 
 .error{
 
-  background: #E01B00;
+  background: #FFE4F2;
   padding: 10px 10px 10px 30px;
-  border: 1px solid #7A2700;
-  color: white;
+  color: #555;
+  border: 1px solid #D399B7;
 
   &:before{
     content: "❌";
@@ -30,4 +45,33 @@
     margin-left: -28px;
     color: #8A0000;
   }
+}
+
+nav{
+  line-height: 1.7rem;
+
+  header{
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  ol{
+    counter-reset: item;
+    padding-left: 0;
+
+    ol{
+      padding-left: 20px;
+    }
+
+    li{
+      display: block;
+
+      &:before{
+        content: counters(item, ".") " ";
+        counter-increment: item;
+      }
+    }
+  }
+
+  
 }

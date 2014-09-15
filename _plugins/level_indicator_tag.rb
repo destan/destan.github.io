@@ -2,6 +2,7 @@ module Jekyll
   class LevelIndicatorTag < Liquid::Tag
     @@html_template = '<div class="level-indicator" level="{level}" title="{level_desc}"><div></div><div></div><div></div><div></div><div></div></div>'
     @@level_desc_map = {
+      0 => "Herkes için",
       1 => "Çok yeniler için",
       2 => "Başlangıç düzeyi",
       3 => "Orta düzey",

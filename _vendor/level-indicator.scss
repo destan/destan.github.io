@@ -60,3 +60,25 @@
 .level-indicator[level="5"] div:nth-child(5){
   background: #FE0002;
 }
+
+.level-indicator[level="0"]{
+  div:nth-child(1){
+    background: #2D8DFE;
+  }
+
+  div:nth-child(2){
+    background: #7FC042;
+  }
+
+  div:nth-child(3){
+    background: #FFC000;
+  }
+
+  div:nth-child(4){
+    background: #E67100;
+  }
+
+  div:nth-child(5){
+    background: #FE0002;
+  }
+}
