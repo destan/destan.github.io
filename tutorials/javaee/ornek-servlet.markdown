@@ -18,9 +18,9 @@ version_history:
 
 ---
 
-### Örnekte ne yapacağız
+Bu yazının sonunda sunucuda çalışan bir Java uygulamamız olacak. Biz tarayıcımıza bu uygulamanın URLsini yazınca, uygulama bir HTML sayfası üretecek ve tarayıcıya gönderecek. Böylelikle siz de üretilen HTML sayfasını görmüş olacaksınız.
 
-Bu örneğin sonunda sunucuda çalışan bir Java uygulamamız olacak. Biz tarayıcımıza bu uygulamanın URLsini yazınca, uygulama bir HTML sayfası üretecek ve tarayıcıya gönderecek. Böylelikle biz de üretilen HTML sayfasını görmüş olacağız.
+Yazının sonunda Java Servlet teknolojisiyle ilgili genel bir bilgi sahibi olacak ve servletler ile basit web sayfaları yaratmaya başlayabileceksiniz.
 
 <nav class="well">
   <header>İçindekiler</header>
@@ -407,9 +407,10 @@ Projeye sağ tıklayarak açılan menüden uygulamamızı Tomcat'e deploy ederek
 
 ## Kaynak Kodları İndirin
 
+Yazıdaki tüm örnekleri içeren Eclipse projesini indirin.
+
 * <a href="https://github.com/JavaOrnekleri/OrnekServlet/archive/master.zip" target="_blank" rel="nofollow"> ▼ .zip olarak indir (Anotasyon kullanan sürüm)</a>
 * <a href="https://github.com/JavaOrnekleri/OrnekServlet/archive/web-xml.zip" target="_blank" rel="nofollow"> ▼ .zip olarak indir (web.xml kullanan sürüm)</a>
-
 
 veya
 
