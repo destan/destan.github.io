@@ -3,7 +3,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | strip_html }}{% endif %}">
+  
+  <!-- See meta description lengt on google -->
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | strip_html | truncate: 157}}{% endif %}">
+
+  <!-- http://stackoverflow.com/questions/4436541/whats-the-difference-between-the-lang-attribute-and-the-meta-http-equiv-conte -->
+  <meta http-equiv="Content-Language" content="{% if page.lang %}{{ page.lang }}{% else %}en-US{% endif %}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?1=18">
 
