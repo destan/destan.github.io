@@ -1,9 +1,10 @@
 ---
 layout: tutorial
-title:  "Örnek Servlet"
+title:  "Örnek Servlet | Servlet Tutorial"
 tags:
   - javaEE
   - servlet
+description: "Bu yazıda Eclipse üzerinde bir servlet projesi oluşturmayı ve örnek bir servlet yazmayı işledik. Eclipse üzerinde Tomcat 8 kurmayı, Eclipse üzerinden sunucuya projeyi deploy etmeyi ve çalıştırmayı gösterdik."
 
 # tutorial
 level: 2

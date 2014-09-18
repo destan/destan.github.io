@@ -1,11 +1,12 @@
 ---
 layout: tutorial
-title:  "JSP Nedir?"
+title:  "JSP Nedir? | JSP Tutorial"
 tags:
   - javaEE
   - servlet
   - JSP
   - Java Server Pages
+description: "Bu yazıda JSP teknolojisinin ne olduğunu anlatıp basit örnekler ile JSPyi pratikte gördük. JSP sayfalarında kullanılan elemanları, JSP sayfalarının sunucuda nasıl işlendiğini ayrıntılı olarak ele aldık."
 
 # tutorial
 level: 2

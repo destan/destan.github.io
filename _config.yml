@@ -10,12 +10,12 @@ paginate_path: "blog/page:num"
 paginate: 10
 
 destination: '../static' # If this folder is inside the project then asset pipeline enters infinite loop
-url: "http://dorukdestan.com"
+url: "http://www.dorukdestan.com"
 
 # Build settings
 markdown: kramdown # To make the template Github ready
 assets:
-  baseurl: 'http://dorukdestan.com/assets'
+  baseurl: 'http://www.dorukdestan.com/assets'
   js_compressor:  uglifier
   css_compressor: scss
   sources:

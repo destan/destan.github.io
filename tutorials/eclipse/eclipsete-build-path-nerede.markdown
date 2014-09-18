@@ -7,6 +7,7 @@ tags:
   - java-build-path
   - yapılandırma
   - configuration
+description: "Eclipse kullanırken çokça gereksinim duyacağınız Build Path yapılandırmasına nasıl erişebileceğinizi anlatır."
 
 # tutorial
 level: 1

@@ -4,6 +4,7 @@ title:  "Servlet Nedir?"
 tags:
   - javaEE
   - servlet
+description: "Bu yazıda Java Servlet teknolojisi nedir, nasıl çalışır sorusuna yanıt verdik. Servletlerin yaşam döngülerini, kullanım alanlarını anlattık. Bunlarla birlikte HTTPyi ve genel anlamda web sayfalarının nasıl çalıştığını hatırlattık."
 
 # tutorial
 level: 2

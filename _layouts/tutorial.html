@@ -84,16 +84,6 @@ styles:
 
   </main>
 
-{% else %}
-  {% include base/404.html %}
-
-  <!-- If  javascript is enabled go to a really non-existing page to give 404 response code instead of 200 -->
-  <!-- It is assumed that there is no "page-not-found" path in the site and it really gives 404 -->
-  <script type="text/javascript">
-    window.location.href = '/page-not-found';
-  </script>
-{% endif %}
-
 <div id="levelDesc" class="modal fade">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -110,3 +100,13 @@ styles:
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+{% else %}
+  {% include base/404.html %}
+
+  <!-- If  javascript is enabled go to a really non-existing page to give 404 response code instead of 200 -->
+  <!-- It is assumed that there is no "page-not-found" path in the site and it really gives 404 -->
+  <script type="text/javascript">
+    window.location.href = '/page-not-found';
+  </script>
+{% endif %}

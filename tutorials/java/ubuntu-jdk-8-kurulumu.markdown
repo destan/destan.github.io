@@ -5,6 +5,7 @@ tags:
   - java
   - jdk 8
   - kurulum
+description: "Ubuntu'da JDK 8 nasıl kurulur? OpenJDK8 repolarda olmadığı halde paket yöneticisi üzerinden kurulum nasıl yapılacak? gibi soruların yanıtlarını bulabilirsiniz."
 
 # tutorial
 level: 1
