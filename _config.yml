@@ -9,13 +9,16 @@ permalink: /blog/:title
 paginate_path: "blog/page:num"
 paginate: 10
 
+exclude: 
+  - "*.md"
+
 destination: '../static' # If this folder is inside the project then asset pipeline enters infinite loop
-url: "http://www.dorukdestan.com"
+url: "http://ozg.com:4000"
 
 # Build settings
 markdown: kramdown # To make the template Github ready
 assets:
-  baseurl: 'http://www.dorukdestan.com/assets'
+  baseurl: 'http://ozg.com:4000/assets'
   js_compressor:  uglifier
   css_compressor: scss
   sources:
