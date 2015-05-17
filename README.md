@@ -28,6 +28,11 @@ $ bundle install
 $ jekyll serve -w
 ```
 
+Usage
+-----
+
+Write posts with `.markdown` suffix because `.md` suffiexed files are ignored for development performance on _dev_ mode.
+
 ToC script
 ----------
 
