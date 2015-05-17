@@ -13,12 +13,12 @@ exclude:
   - "*.md"
 
 destination: '../static' # If this folder is inside the project then asset pipeline enters infinite loop
-url: "http://ozg.com:4000"
+url: "http://localhost:4000"
 
 # Build settings
 markdown: kramdown # To make the template Github ready
 assets:
-  baseurl: 'http://ozg.com:4000/assets'
+  baseurl: 'http://localhost:4000/assets'
   js_compressor:  uglifier
   css_compressor: scss
   sources:

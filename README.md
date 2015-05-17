@@ -17,6 +17,17 @@ Features
 * Dynamic menu
 * Draft flag
 
+Install
+-------
+
+```
+$ rvm gemset create jekyll
+$ rvm gemset use jekyll
+$ gem install jekyll
+$ bundle install
+$ jekyll serve -w
+```
+
 ToC script
 ----------
 

@@ -1,4 +1,6 @@
 git checkout jekyll
+rm _config.yml
+cp _config.yml.prod _config.yml 
 jekyll build
 cp .gitignore ../static/
 git checkout master
