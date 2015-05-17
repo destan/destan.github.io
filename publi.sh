@@ -1,6 +1,6 @@
 git checkout jekyll
 cp _config.yml.prod _config.yml
-commit -am 'restore prod config'
+git commit -am 'restore prod config'
 jekyll build
 cp .gitignore ../static/
 git checkout master
