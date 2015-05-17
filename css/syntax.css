@@ -173,19 +173,19 @@
 /* Literal.Number */
 /* line 28, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .s {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String */
 /* line 29, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .na {
-  color: teal;
+  color: #008080;
 }
 
 /* Name.Attribute */
 /* line 30, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .nb {
-  color: #0086b3;
+  color: #0086B3;
 }
 
 /* Name.Builtin */
@@ -198,13 +198,13 @@
 /* Name.Class */
 /* line 32, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .no {
-  color: teal;
+  color: #008080;
 }
 
 /* Name.Constant */
 /* line 33, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .ni {
-  color: purple;
+  color: #800080;
 }
 
 /* Name.Entity */
@@ -230,13 +230,13 @@
 /* Name.Namespace */
 /* line 37, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .nt {
-  color: navy;
+  color: #000080;
 }
 
 /* Name.Tag */
 /* line 38, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .nv {
-  color: teal;
+  color: #008080;
 }
 
 /* Name.Variable */
@@ -278,49 +278,49 @@
 /* Literal.Number.Oct */
 /* line 45, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .sb {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Backtick */
 /* line 46, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .sc {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Char */
 /* line 47, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .sd {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Doc */
 /* line 48, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .s2 {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Double */
 /* line 49, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .se {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Escape */
 /* line 50, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .sh {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Heredoc */
 /* line 51, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .si {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Interpol */
 /* line 52, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .sx {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Other */
@@ -332,7 +332,7 @@
 /* Literal.String.Regex */
 /* line 54, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .s1 {
-  color: #dd1144;
+  color: #d14;
 }
 
 /* Literal.String.Single */
@@ -350,19 +350,19 @@
 /* Name.Builtin.Pseudo */
 /* line 57, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .vc {
-  color: teal;
+  color: #008080;
 }
 
 /* Name.Variable.Class */
 /* line 58, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .vg {
-  color: teal;
+  color: #008080;
 }
 
 /* Name.Variable.Global */
 /* line 59, ../../destan.github.io/_assets/stylesheets/syntax.scss */
 .highlight .vi {
-  color: teal;
+  color: #008080;
 }
 
 /* Name.Variable.Instance */

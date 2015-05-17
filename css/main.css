@@ -9,7 +9,7 @@ nav.navbar {
   background-color: transparent;
 }
 
-/* line 17, ../../destan.github.io/_assets/stylesheets/menu.scss */
+/* line 12, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:visited,
 .navbar-default .navbar-nav > li > a:active,
@@ -20,7 +20,7 @@ nav.navbar {
   color: #515151;
 }
 
-/* line 23, ../../destan.github.io/_assets/stylesheets/menu.scss */
+/* line 22, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li.active > a:hover {
   background-color: transparent;
@@ -56,17 +56,17 @@ nav.navbar {
 /* line 65, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.home {
   border-color: #dd4814;
-  -webkit-transition: text-shadow 0.3s ease-in-out;
   -moz-transition: text-shadow 0.3s ease-in-out;
   -o-transition: text-shadow 0.3s ease-in-out;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
   transition: text-shadow 0.3s ease-in-out;
 }
 /* line 55, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.home:hover, .navbar .nav > li.home.active {
   text-shadow: 5px 2px 5px #dd4814, -5px -2px 5px #dd4814;
-  -webkit-transition: text-shadow 0.3s ease-in-out;
   -moz-transition: text-shadow 0.3s ease-in-out;
   -o-transition: text-shadow 0.3s ease-in-out;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
   transition: text-shadow 0.3s ease-in-out;
 }
 /* line 59, ../../destan.github.io/_assets/stylesheets/menu.scss */
@@ -77,17 +77,17 @@ nav.navbar {
 /* line 69, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.blog {
   border-color: #4285f4;
-  -webkit-transition: text-shadow 0.3s ease-in-out;
   -moz-transition: text-shadow 0.3s ease-in-out;
   -o-transition: text-shadow 0.3s ease-in-out;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
   transition: text-shadow 0.3s ease-in-out;
 }
 /* line 55, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.blog:hover, .navbar .nav > li.blog.active {
   text-shadow: 5px 2px 5px #4285f4, -5px -2px 5px #4285f4;
-  -webkit-transition: text-shadow 0.3s ease-in-out;
   -moz-transition: text-shadow 0.3s ease-in-out;
   -o-transition: text-shadow 0.3s ease-in-out;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
   transition: text-shadow 0.3s ease-in-out;
 }
 /* line 59, ../../destan.github.io/_assets/stylesheets/menu.scss */
@@ -98,17 +98,17 @@ nav.navbar {
 /* line 73, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.talks {
   border-color: #f4b400;
-  -webkit-transition: text-shadow 0.3s ease-in-out;
   -moz-transition: text-shadow 0.3s ease-in-out;
   -o-transition: text-shadow 0.3s ease-in-out;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
   transition: text-shadow 0.3s ease-in-out;
 }
 /* line 55, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.talks:hover, .navbar .nav > li.talks.active {
   text-shadow: 5px 2px 5px #f4b400, -5px -2px 5px #f4b400;
-  -webkit-transition: text-shadow 0.3s ease-in-out;
   -moz-transition: text-shadow 0.3s ease-in-out;
   -o-transition: text-shadow 0.3s ease-in-out;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
   transition: text-shadow 0.3s ease-in-out;
 }
 /* line 59, ../../destan.github.io/_assets/stylesheets/menu.scss */
@@ -119,17 +119,17 @@ nav.navbar {
 /* line 77, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.projects {
   border-color: #0f9d58;
-  -webkit-transition: text-shadow 0.3s ease-in-out;
   -moz-transition: text-shadow 0.3s ease-in-out;
   -o-transition: text-shadow 0.3s ease-in-out;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
   transition: text-shadow 0.3s ease-in-out;
 }
 /* line 55, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.projects:hover, .navbar .nav > li.projects.active {
   text-shadow: 5px 2px 5px #0f9d58, -5px -2px 5px #0f9d58;
-  -webkit-transition: text-shadow 0.3s ease-in-out;
   -moz-transition: text-shadow 0.3s ease-in-out;
   -o-transition: text-shadow 0.3s ease-in-out;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
   transition: text-shadow 0.3s ease-in-out;
 }
 /* line 59, ../../destan.github.io/_assets/stylesheets/menu.scss */
@@ -139,18 +139,18 @@ nav.navbar {
 
 /* line 81, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.tutorials {
-  border-color: #cc33aa;
-  -webkit-transition: text-shadow 0.3s ease-in-out;
+  border-color: #CC33AA;
   -moz-transition: text-shadow 0.3s ease-in-out;
   -o-transition: text-shadow 0.3s ease-in-out;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
   transition: text-shadow 0.3s ease-in-out;
 }
 /* line 55, ../../destan.github.io/_assets/stylesheets/menu.scss */
 .navbar .nav > li.tutorials:hover, .navbar .nav > li.tutorials.active {
-  text-shadow: 5px 2px 5px #cc33aa, -5px -2px 5px #cc33aa;
-  -webkit-transition: text-shadow 0.3s ease-in-out;
+  text-shadow: 5px 2px 5px #CC33AA, -5px -2px 5px #CC33AA;
   -moz-transition: text-shadow 0.3s ease-in-out;
   -o-transition: text-shadow 0.3s ease-in-out;
+  -webkit-transition: text-shadow 0.3s ease-in-out;
   transition: text-shadow 0.3s ease-in-out;
 }
 /* line 59, ../../destan.github.io/_assets/stylesheets/menu.scss */

@@ -17,6 +17,17 @@ Features
 * Dynamic menu
 * Draft flag
 
+Install
+-------
+
+```
+$ rvm gemset create jekyll
+$ rvm gemset use jekyll
+$ gem install jekyll
+$ bundle install
+$ jekyll serve -w
+```
+
 ToC script
 ----------
 
@@ -58,7 +69,7 @@ $('h2,h3,h4,h5,h6').each(function(i,e){
   var prefix = number[e.tagName]++;
   var debugString = debug ? ' (' + e.tagName + ')' : '';
 
-  result += space + prefix + '. [' + e.textContent + '](#' + e.id + ')' + debugString  + '\n';
+  result += space + prefix + '. [' + e.textContent.replace(/(\s{2,}|\n)/, '') + '](#' + e.id + ')' + debugString  + '\n';
 
   switch(e.tagName){
     case 'H2':
