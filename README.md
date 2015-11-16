@@ -28,6 +28,14 @@ $ bundle install
 $ jekyll serve -w
 ```
 
+Usage
+-----
+
+1. `cp _config.yml.dev _config.yml`
+2. Write posts with `.markdown` suffix because `.md` suffiexed files are ignored for development performance on _dev_ mode.
+3. **add & commit & push new posts**
+4. `./publi.sh`
+
 ToC script
 ----------
 
