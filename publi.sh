@@ -12,4 +12,4 @@ rm -rfv .sass-cache/ _site/
 rm -v publi.sh _config.dev.yml
 git add . --all
 git commit -m "${1:-update}"
-#git push
+git push
