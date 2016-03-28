@@ -1,6 +1,6 @@
+#!/bin/bash
+
 git checkout jekyll
-cp _config.yml.prod _config.yml
-git commit -am 'restore prod config'
 jekyll build
 cp .gitignore ../static/
 git checkout master
@@ -8,9 +8,8 @@ git checkout master
 # tail removes '.' which cannot be removed and crashes the script
 find . | grep -v "\.git" | tail -n +2 | xargs rm -rf
 cp -r ../static/* ./
-rm -rf .sass-cache/
-rm -rf _site/
-rm publi.sh
+rm -rfv .sass-cache/ _site/
+rm -v publi.sh _config.dev.yml
 git add . --all
-git commit -am 'update'
-git push
+git commit -m "${1:-update}"
+#git push

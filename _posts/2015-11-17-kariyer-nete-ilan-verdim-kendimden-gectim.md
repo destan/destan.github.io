@@ -2,7 +2,7 @@
 layout: post
 title:  "Kariyer.net'e İlan Verdim Kendimden Geçtim"
 categories: yazılım, hayat
-duration: 1min
+duration: 2min
 tags:
   - eğitim
   - kariyer
@@ -17,7 +17,7 @@ Twitter, Facebook, Linkedin'i denedik pek bişi çıkmadı. Sonunda İzmir'de ol
 
 Kariyer.net'in gerçek anlamda baş döndüren arayüzü bir süre sonra değişik bir "kafa" yapıyor. Gözleriniz saçma sapan yerlerde çıkan ajax loaderlara şaşı şaşı bakarken bir yandan da nereye tıklarsam nasıl beklenmedik bir "action" olacak diye tedirgin tedirgin geziniyorsunuz sitede. Ama şimdilik bu eşsiz UXi bir kenara bırakalım.
 
-Halkın eğitimsiz olduğunu, hatta eğitimli sayılan üniversite gençliğinin bile eğitimsiz olduğunu biliriz ama yine de sokak röpörtajlarında "Türkiye'deki piramitleri çalmışlar" diyince "vay şerefsizler" diyen gençliğe şaşırırız ya, kariyer.net'e ilan vermek bana böyle bir duygu yaşattı.
+Halkın eğitimsiz olduğunu, hatta eğitimli sayılan üniversite gençliğinin bile eğitimsiz olduğunu biliriz ama yine de sokak röportajlarında "Türkiye'deki piramitleri çalmışlar" diyince "vay şerefsizler" diyen gençliğe şaşırırız ya, kariyer.net'e ilan vermek bana böyle bir duygu yaşattı.
 
 CVlerdeki "bana bir adım yürüyene ben 10 adım yürürüm" gibi cümlelere inanmak zor, gerçekten yazmışlar mı fake mi troll mü diye düşünmeden edemiyorsunuz ama maalesef onlar gerçek!
 

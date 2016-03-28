@@ -5,8 +5,4 @@ $(function() {
       $element.tooltip();
     }
   });
-
-  $('#moreOfMeToggler').click(function() {
-    $('#moreOfMe').toggle();
-  });
 });
