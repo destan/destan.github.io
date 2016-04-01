@@ -21,20 +21,24 @@ Install
 -------
 
 ```
+$ cd <project_dir>
 $ rvm gemset create jekyll
 $ rvm gemset use jekyll
-$ gem install jekyll
+$ git checkout jekyll
 $ bundle install
-$ jekyll serve -w
+$ jekyll serve -w --config _config.dev.yml
 ```
+
+Omit `--config _config.dev.yml` to see all the blog posts, buld will be slower if you have more than 10 posts.
 
 Usage
 -----
 
-1. `cp _config.yml.dev _config.yml`
-2. Write posts with `.markdown` suffix because `.md` suffiexed files are ignored for development performance on _dev_ mode.
-3. **add & commit & push new posts**
-4. `./publi.sh`
+1. git checkout jekyll #change branch to make modifications
+2. Write posts with `.markdown` suffix because `.md` suffiexed files are ignored for performance on development.
+3. See your changes in local `jekyll serve -w --config _config.dev.yml`
+4. **add & commit & push new posts** to jekyll branch
+5. run `./publi.sh` to publish changes to github pages
 
 ToC script
 ----------
