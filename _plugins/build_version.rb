@@ -1,3 +1,5 @@
+# this will show the build version (latest commit hash) of jekyll branch
+# ex: 72abdcc@2016-04-01 14:51:17 +0300
 module Jekyll
   class RenderTimeTag < Liquid::Tag
 
