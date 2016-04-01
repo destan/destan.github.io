@@ -25,7 +25,6 @@ $ cd <project_dir>
 $ rvm gemset create jekyll
 $ rvm gemset use jekyll
 $ git checkout jekyll
-$ gem install jekyll
 $ bundle install
 $ jekyll serve -w --config _config.dev.yml
 ```
