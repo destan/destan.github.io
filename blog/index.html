@@ -12,22 +12,22 @@ description: "Destan Sarpkaya's personal blog."
 <main class="container">
 
   {% include base/blog_pagination.html %}
-  
+
   {% for post in paginator.posts %}
   {% unless post.draft %}
     <div class="blog-excerpt well {{post.categories | first}}">
       <strong>{{ post.title }}</strong>
-      
+
       <div class="meta-box">
         <time itemprop="datePublished" title="Published on"><i class="icon-calendar"></i> {{ post.date | date_to_string }}</time>
-        {% if post.duration != nil %}<div title="Reading duration" class="duration"><i class="icon-clock"></i> {{ post.duration }}</div>{% endif %}
+        <div title="Reading duration" class="duration"><i class="icon-clock"></i> {% read_duration post.content %}</div>
       </div>
 
       <div>{{ post.excerpt }} <a href="{{ post.url }}">Continue reading »</a></div>
     </div>
   {% endunless %}
   {% endfor %}
-  
+
   {% include base/blog_pagination.html %}
-  
+
 </main>

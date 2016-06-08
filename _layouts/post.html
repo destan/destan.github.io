@@ -10,15 +10,15 @@ hasH1: true
 {% if page.draft != true %}
 
   <main class="container">
-    
+
     <article itemscope itemtype="http://schema.org/Article">
 
       <h1 itemprop="name">{{ page.title }}</h1>
       {% if page.subtitle != nil %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
-      
+
       <div class="meta-box">
         <time itemprop="datePublished" title="Published on"><i class="icon-calendar"></i> {{ page.date | date_to_string }}</time>
-        {% if page.duration != nil %}<span title="Reading duration" class="duration"> | <i class="icon-clock"></i> {{ page.duration }}</span>{% endif %}
+        <span title="Reading duration" class="duration"> | <i class="icon-clock"></i> {% read_duration {content} %}</span>
       </div>
 
       <section itemprop="articleBody">
@@ -45,7 +45,7 @@ hasH1: true
 
       {% if page.categories.size > 0 %}
       <span>
-        | <a href="{{site.url}}/blog/categories/">Categories</a>: 
+        | <a href="{{site.url}}/blog/categories/">Categories</a>:
         {% for category in page.categories %}
           <a href="{{site.url}}/blog/categories/{{category}}">{{category}}</a>
         {% endfor %}
