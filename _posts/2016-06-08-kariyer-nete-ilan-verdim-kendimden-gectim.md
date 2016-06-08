@@ -48,6 +48,8 @@ Bitirme projelerinin adlarına bakıyorsun sanırsın ISS*'e modül geliştirmi�
 
 Ülkemizde bilişim şirketinin yeni tanımı şudur: En az 6 ay ücretli eğitim veren yer. Fakat ücreti şirket öder, nasıl?
 
+Velhasıl yazlım geliştirici arama sürecimiz ülkenin vasat mezunlarının Kariyer.net'in acayip sistemiyle birleşmesiyle bana ve ortağım Zafer'e unutulmaz bir deneyim yaşattı
+
 *ISS: International Space Station
 
 
